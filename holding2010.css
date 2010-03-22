@@ -243,13 +243,14 @@ div.clear {
 
 .tweets a {
   color: #22c7b5;
+  text-decoration: none;
 }
 
 .tweets h1 {
   display: none;
 }
 
-.tweets strong a {
+.tweets strong {
   text-decoration: none;
   color: #2a3f42;
   display: block;
