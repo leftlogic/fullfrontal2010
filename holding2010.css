@@ -29,10 +29,15 @@ details[open] {
   display: block;
 }
 
+html { height: 100%; }
+
 body {
-  background: #d3f4f0 url(images/grad-bg.png) repeat-x top left;
+  background: #d3f4f0 url(images/grad-bg.png) top left repeat-x;
+  background: url(images/ll-sidebar2.png) 120% 155% no-repeat,
+              #d3f4f0 url(images/grad-bg.png) top left repeat-x;
   font-family: verdana, helvetica, arial;
   color: #F2FFC6;
+  height: 100%;
 }
 
 fieldset {
@@ -47,7 +52,7 @@ label {
   padding: 45px 0 45px 40px;
   margin: 0 auto;
   width: 608px;
-  background: #546568 url(images/grad-content.png) repeat-x;
+  background: #546568 url(images/grad-content.png) top left repeat-x;
   position: relative;
 }
 
