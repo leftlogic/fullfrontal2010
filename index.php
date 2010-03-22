@@ -110,7 +110,7 @@ Cheers,
         $favs = json_decode(file_get_contents('./fullfrontalconf.json'));
         shuffle($favs);
         for ($i = 0; $i < 3; $i++) : $fav = $favs[$i]; ?>
-        <li><a href="http://twitter.com/<?=$fav->user->screen_name?>/statuses/<?=$fav->id?>"><strong>@<?=$fav->user->screen_name?></strong><?=$fav->text?></a></li>
+        <li><a href="http://twitter.com/<?=$fav->user->screen_name?>/statuses/<?=$fav->id?>"><strong>@<?=$fav->user->screen_name?></strong><?=htmlentities($fav->text)?></a></li>
         <?php endfor ?>
       </ul>
       <a id="followus" href="http://twitter.com/fullfrontalconf">Follow Us</a>
