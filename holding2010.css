@@ -83,7 +83,9 @@ header {
 
 header > * {
   margin-left: 35px;
-  background: url(images/ff2010.png) no-repeat top left;
+  background-image: url(images/spriteme1.png);
+  background-position: -10px -10px;
+  background-repeat: none;
   text-indent: -9999px;  
 }
 
@@ -93,7 +95,7 @@ header h1 {
 }
 
 header h2 {
-  background-position: 0 -115px;
+  background-position: -10px -120px;
   width: 180px;
   height: 20px;
 }
@@ -102,7 +104,7 @@ header h3 {
   position: absolute;
   height: 50px;
   width: 290px;
-  background-position: 0 -140px;
+  background-position: -10px -150px;
   left: 240px;
   top: 50px;
 }
@@ -124,7 +126,8 @@ header h3 {
 }
 
 #mailinglist h1 {
-  background: url(images/join-our-mailing-list.png) no-repeat;
+  background-image: url(images/spriteme1.png);
+  background-position: -10px -215px;
   height: 18px;
   width: 363px;
   text-indent: -9999px;
@@ -146,7 +149,9 @@ input.button {
   border: 0;
   margin: 16px 0;
   float: right;
-  background: url(images/button.png) no-repeat;
+  background-image: url(images/spriteme1.png);
+  background-position: -10px -253px;
+  backgroud-repeat: none;
   height: 28px;
   width: 101px;
   font-weight: bold;
@@ -163,18 +168,19 @@ input.button {
 }
 
 #wanttospeak h1 {
-  background: url(images/titles.png) no-repeat top left;
+  background-image: url(images/spriteme1.png);
+  background-position: -10px -301px;
   width: 180px;
   height: 18px;
   text-indent: -9999px;  
 }
 
 #wanttosponsor h1 {
-  background: url(images/titles.png) no-repeat top left;
+  background-image: url(images/spriteme1.png);
+  background-position: -10px -301px;
   width: 180px;
   height: 18px;
   text-indent: -9999px;  
-  background-position: 0 -24px;
 }
 
 #subitems {
@@ -288,16 +294,19 @@ div.clear {
 /*  position: absolute;*/
 /*  bottom: 0;*/
 /*  left: 0;*/
-  background: url(images/followus.png) no-repeat bottom right;
+  background-image: url(images/spriteme1.png);
+  background-position: 2px -384px;
   display: block;
   height: 57px;
+  margin-left: 20px;
 /*  width: 192px;*/
   text-indent: -9999px;
   cursor: pointer;
 }
 
 #followus:hover { 
-  background: url(images/followus-hover.png) no-repeat bottom right;
+  background-image: url(images/spriteme1.png);
+  background-position: 182px -384px;
 }
 
 #thanks {
