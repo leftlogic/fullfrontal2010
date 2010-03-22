@@ -292,15 +292,12 @@ div.clear {
 }
 
 #followus {
-/*  position: absolute;*/
-/*  bottom: 0;*/
-/*  left: 0;*/
   background-image: url(images/spriteme1.png);
   background-position: 2px -384px;
   display: block;
   height: 57px;
   margin-left: 20px;
-/*  width: 192px;*/
+  margin-top: 20px;
   text-indent: -9999px;
   cursor: pointer;
 }
