@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+article,section,header,footer {
+  display: block;
+}
+
+details {
+  display: block;
+}
+
+details > * {
+  display: none;
+}
+
+details.open > *, /* sigh :-( http://twitter.com/rem/status/2178972149 */
+details[open] > * {
+  display: block;
+}
+
+details > summary:first-child {
+  display: block;
+  cursor: pointer;
+}
+
+details[open] {
+  display: block;
+}
+
+body {
+  background: #d3f4f0 url(images/grad-bg.png) repeat-x top left;
+  font-family: verdana, helvetica, arial;
+  color: #F2FFC6;
+}
+
+fieldset {
+  border: 0;
+}
+
+label {
+  display: none;
+}
+
+#content {
+  padding: 45px 0 45px 40px;
+  margin: 0 auto;
+  width: 608px;
+  background: #546568 url(images/grad-content.png) repeat-x;
+  position: relative;
+}
+
+footer {
+  width: 608px;
+  margin: 0 auto;
+  color: #22c7b5;
+  font-size: 12px;
+  padding: 15px 80px;
+}
+
+footer a {
+  padding: 1px;
+  color: #22c7b5;
+}
+
+footer a:hover {
+  padding: 1px;
+  background-color: #22c7b5;
+  color: #C8F0EA;
+  text-decoration: none;
+}
+
+header {
+  position: relative;
+  padding-bottom: 55px;
+}
+
+header > * {
+  margin-left: 35px;
+  background: url(images/ff2010.png) no-repeat top left;
+  text-indent: -9999px;  
+}
+
+header h1 {
+  width: 180px;
+  height: 110px;
+}
+
+header h2 {
+  background-position: 0 -115px;
+  width: 180px;
+  height: 20px;
+}
+
+header h3 {
+  position: absolute;
+  height: 50px;
+  width: 290px;
+  background-position: 0 -140px;
+  left: 240px;
+  top: 50px;
+}
+
+#actions {
+}
+
+.action {
+  background: #22c7b5;
+  border: 1px solid #fff;
+  /*height: 244px;*/
+/*  float: left;*/
+/*  background: #2FC2C1;*/
+  background: #22c7b5;
+/*  border: 1px solid #fff;*/
+  padding: 38px;
+  padding-left: 28px;
+  width: 388px;
+}
+
+#mailinglist h1 {
+  background: url(images/join-our-mailing-list.png) no-repeat;
+  height: 18px;
+  width: 363px;
+  text-indent: -9999px;
+  margin-left: 6px;
+}
+
+input {
+  background: #f4ffd4;
+  padding: 6px 11px;
+  font-family: font-family: helvetica, arial;
+  font-size: 13px;
+  border: 1px solid #dbf4a1;
+  margin: 15px 0;
+  width: 256px;
+}
+
+input.button {
+  cursor: pointer;
+  border: 0;
+  margin: 16px 0;
+  float: right;
+  background: url(images/button.png) no-repeat;
+  height: 28px;
+  width: 101px;
+  font-weight: bold;
+  font-family: verdana, arial;
+  text-shadow: rgba(73, 150, 0, 0.5) 1px 1px 0px;
+  color: #fff;
+  line-height: 10px;
+  padding: 0;
+}
+
+.action p {
+  margin-top: 14px;
+  margin-left: 6px;
+}
+
+#wanttospeak h1 {
+  background: url(images/titles.png) no-repeat top left;
+  width: 180px;
+  height: 18px;
+  text-indent: -9999px;  
+}
+
+#wanttosponsor h1 {
+  background: url(images/titles.png) no-repeat top left;
+  width: 180px;
+  height: 18px;
+  text-indent: -9999px;  
+  background-position: 0 -24px;
+}
+
+#subitems {
+/*  overflow: hidden;*/
+  width: 436px;
+  padding-top: 40px;
+}
+
+#subitems details {
+  width: 178px;
+  float: left;
+  padding-right: 40px;
+  display: block;
+  position: relative;
+}
+
+#subitems details p {
+  font-size: 12px;
+  margin-top: 14px;
+}
+
+#subitems details summary p {
+  margin: 0;
+  font-size: 14px;
+}
+
+#subitems a {
+  color: #F2FFC6;
+  padding: 1px;
+  text-decoration: underline;
+}
+
+#subitems a:hover {
+  background-color: #F2FFC6;
+  padding: 1px;
+  color: #3A4543;
+  text-decoration: none;
+}
+
+div.clear {
+  clear: left;
+}
+
+.tweets {
+  position: absolute;
+/*  height: 380px;*/
+  width: 192px;
+  background: #edfafa;
+  right: -80px;
+  top: 230px;
+  color: #22c7b5;
+  font-size: 12px;
+  overflow: hidden;
+  font-family: arial;
+  -webkit-border-bottom-right-radius: 20px;
+  -moz-border-radius-bottomright: 20px;
+  border-bottom-right-radius: 20px;  
+  margin-bottom: 20px;
+}
+
+.tweets a {
+  color: #22c7b5;
+}
+
+.tweets h1 {
+  display: none;
+}
+
+.tweets strong a {
+  text-decoration: none;
+  color: #2a3f42;
+  display: block;
+  margin-bottom: 3px;
+}
+
+.tweets strong {
+  text-transform: lowercase;
+}
+
+#tweetholder {
+  width: 192px;
+  opacity: 0;
+  filter:alpha(opacity=0);
+  position: absolute;
+  left: -9999px;
+  z-index: -1;
+}
+
+.tweets li {
+  padding-left: 19px;
+  padding-right: 19px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 17px;
+  padding-top: 16px;
+  list-style: none;
+  border-top: 1px solid #a5e8e1;
+}
+
+.tweets li#loading {
+  display: block;
+  height: 90px;
+  background: url(images/spinner.gif) no-repeat bottom center;
+}
+
+.tweets li:first-child {
+  border-top: 0;
+}
+
+#followus {
+/*  position: absolute;*/
+/*  bottom: 0;*/
+/*  left: 0;*/
+  background: url(images/followus.png) no-repeat bottom right;
+  display: block;
+  height: 57px;
+/*  width: 192px;*/
+  text-indent: -9999px;
+  cursor: pointer;
+}
+
+#followus:hover { 
+  background: url(images/followus-hover.png) no-repeat bottom right;
+}
+
+#thanks {
+  font-weight: bold;
+}
