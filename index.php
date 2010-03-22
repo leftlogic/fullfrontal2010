@@ -88,7 +88,7 @@ Cheers,
       </form>
     </section>
     <section class="subitems" id="wanttospeak">
-      <h1 >Want to speak?</h1>
+      <h1>Want to speak?</h1>
       <details>
         <summary>Submit your abstract</summary>
         <p>If you&rsquo;re interested in speaking at our second event, <a href="mailto:events@leftlogic.com?subject=Speaker%20Proposal">drop us an email</a> with your talk title, description and a bit about yourself.</p>
