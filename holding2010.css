@@ -183,13 +183,13 @@ input.button {
   text-indent: -9999px;  
 }
 
-#subitems {
-/*  overflow: hidden;*/
-  width: 436px;
+.subitems {
+  width: 218px;
+  float: left;
   padding-top: 40px;
 }
 
-#subitems details {
+.subitems details {
   width: 178px;
   float: left;
   padding-right: 40px;
@@ -197,23 +197,23 @@ input.button {
   position: relative;
 }
 
-#subitems details p {
+.subitems details p {
   font-size: 12px;
   margin-top: 14px;
 }
 
-#subitems details summary p {
+.subitems details summary p {
   margin: 0;
   font-size: 14px;
 }
 
-#subitems a {
+.subitems a {
   color: #F2FFC6;
   padding: 1px;
   text-decoration: underline;
 }
 
-#subitems a:hover {
+.subitems a:hover {
   background-color: #F2FFC6;
   padding: 1px;
   color: #3A4543;
