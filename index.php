@@ -18,9 +18,11 @@ if (isset($_POST['email']) && $_POST['email'] && validEmail($_POST['email'])) {
 }
 ?>
 <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset=utf-8 />
+<title>Full Frontal - JavaScript Conference - 12th November 2010</title>
 <!--
-
-                 ----~~~====*******====~~~----
 
 Hello there! \o,
 
@@ -52,13 +54,7 @@ Cheers,
 
 - Remy.
 
-                  ----~~~====*******====~~~----
-
 -->
-<html lang="en">
-<head>
-<meta charset=utf-8 />
-<title>Full Frontal - JavaScript Conference - 12th November 2010</title>
 <link rel="stylesheet" href="holding2010.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="print.css" type="text/css" media="print" />
 <!--[if lte IE 7]>
