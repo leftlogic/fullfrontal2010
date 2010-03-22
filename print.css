@@ -1,0 +1,7 @@
+body {
+  font-family: helvetica, arial;
+}
+
+a:after {
+  content: ' (' attr(href) ')';
+}
