@@ -125,6 +125,10 @@ header h3 {
   width: 388px;
 }
 
+.action a {
+  color: #F2FFC6;
+}
+
 #mailinglist h1 {
   background-image: url(images/spriteme1.png);
   background-position: -10px -215px;
@@ -310,3 +314,4 @@ div.clear {
 #thanks {
   font-weight: bold;
 }
+

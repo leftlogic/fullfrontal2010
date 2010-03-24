@@ -83,7 +83,7 @@ Cheers,
           <?php elseif ($error) : ?>
           <p class="err">There was an error when trying to save your email address. Can you check it and try again?</p>
           <?php endif ?>
-          <p>You&rsquo;ll find out when tickets go on sale and we&rsquo;ll update you with the latest event information &mdash; including confirming speakers as they happen.</p>
+          <p>Taking place in Brighton, UK at the <a href="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=duke+of+york,+brighton&amp;vps=1&amp;jsv=154c&amp;sll=-4.1666,152.462156&amp;sspn=0.298928,0.261955&amp;g=duke+of+york&amp;ie=UTF8&amp;ei=5wnnSebDG4SIowP6naDwCg&amp;sig2=uIG8UqE0YmlndQ6g6HnVtw&amp;cd=1&amp;cid=50833651,-138411,13647004259206618235&amp;li=lmd&amp;z=14&amp;t=m">Duke of Yorks cinema</a> again, you&rsquo;ll find out when tickets go on sale and we&rsquo;ll update you with the latest event information &mdash; including confirming speakers as they happen.</p>
         </fieldset>
       </form>
     </section>
