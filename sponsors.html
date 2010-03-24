@@ -123,6 +123,9 @@ h2 {
 }
 </style>
 <style media="print">
+body {
+  background: none;
+}
 #content {
   text-shadow: none;
 }
@@ -146,18 +149,23 @@ h1, h2, h3, h4 {
 }
 */
 
+td, th {
+  text-shadow: none;
+  font-size: 14px;
+}
+
 td.empty {
   background: #ccc;
 }
 
 thead, th {
   background: #76AFA4;
-  text-shadow: 1px 1px 0 #000;
+/*  text-shadow: 1px 1px 0 #000;*/
   color: #eee;
   padding: 10px;
 }
 
-th {
+thead th {
   color: #fff;
 }
 
