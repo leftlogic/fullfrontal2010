@@ -1,0 +1,1189 @@
+/* HTML 5 ---------------------------------------------------------*/
+
+article, aside, figure, footer, header, hgroup, menu, nav, section { display: block; margin: 0; }
+
+/* BODY ---------------------------------------------------------*/
+
+html {
+  background: #92E4DC url(../images/ff.png) 100% 100% no-repeat;
+}
+
+body {
+  height: 100%;
+  overflow-y: scroll;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: Georgia;
+  font-weight: normal;
+  color: #2a3f42;
+}
+
+/* LINKS ---------------------------------------------------------*/
+
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  color: #2a3f42;
+}
+
+.js a:link,
+.js a:visited,
+.js a:hover,
+.js a:focus,
+.js a:active {
+  -webkit-transition: color 100ms ease-in-out;
+  -moz-transition: color 100ms ease-in-out;
+  -o-transition: color 100ms ease-in-out;
+  transition: color 100ms ease-in-out;
+}
+
+a:hover,
+a:focus {
+  color: #5E918E;
+}
+
+/* LISTS ---------------------------------------------------------*/
+
+ol,
+ul {
+  margin-left: 20px;
+}
+ol li,
+ul li {
+  margin-left: 20px;
+  margin-bottom: 5px;
+  list-style: disc;
+}
+ol li {
+  list-style: upper-roman;
+}
+
+/* STRUCTURE ---------------------------------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+p,
+ol,
+ul {
+  margin-bottom: 20px;
+}
+
+#holder {
+/*  background: transparent url(../images/bg.png) 0 0;*/
+/*  overflow: hidden;*/
+}
+
+.inner {
+  width: 960px;
+  margin: auto;
+}
+
+.box {
+  padding: 20px;
+  margin-top: 20px;
+  background: #c8f1ed;
+  border: 1px solid transparent;
+  border-top-color: #e4f8f6;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.box:target {
+  -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.7);
+  -o-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.7);  
+}
+
+/* HEADINGS ---------------------------------------------------------*/
+
+h1,
+h2,
+h3,
+h4 {
+  color: #2a3f42;
+}
+
+/* HEADER ---------------------------------------------------------*/
+
+header {
+  background: #2a3f42;
+  overflow: hidden;
+  padding: 30px 0;
+}
+
+header a.home {
+  float: left;
+  margin: 0;
+  text-indent: -9999px;
+  background: url(../images/sprite.png) 0 -683px;
+  display: block;
+  width: 308px;
+  height: 55px;
+}
+
+header #tickets {
+  float: right;
+  margin-top: -25px;
+  display: block;
+  width: 414px;
+  height: 90px;
+}
+
+header #tickets a {
+  display: block;
+  width: 414px;
+  height: 90px;
+}
+
+#tickets.soldout {
+  background: url(../images/button_soldout.png) 0 -90px;
+}
+#tickets.soldout:hover,
+#tickets.soldout:focus {
+  background-position: 0 0;
+}
+
+#tickets.earlybird {
+  background: url(../images/button_earlybird.png) 0 -90px;
+}
+#tickets.earlybird:hover,
+#tickets.earlybird:focus {
+  background-position: 0 0;
+}
+
+#tickets.standard {
+  background: url(../images/button_standard.png) 0 -90px;
+}
+#tickets.standard:hover,
+#tickets.standard:focus {
+  background-position: 0 0;
+}
+
+#tickets.soon {
+  background: url(../images/button_soon.png) 0 -90px;
+}
+#tickets.soon:hover,
+#tickets.soon:focus {
+  background-position: 0 0;
+}
+
+header #tickets h3,
+header #tickets p {
+  display: none;
+}
+
+/* NAVIGATION ---------------------------------------------------------*/
+
+nav {
+  background: #2a3f42;
+  border-top: 1px solid #405355;
+}
+
+nav:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+nav ul {
+  width: 960px;
+  margin: -5px auto 0 auto;
+}
+
+nav ul li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav ul li span,
+nav ul li a:link,
+nav ul li a:visited,
+nav ul li a:hover,
+nav ul li a:focus,
+nav ul li a:active {
+  font-size: 18px;
+  display: block;
+  color: #22c7b5;
+  padding: 20px 20px 18px 20px;
+  border: 1px solid transparent;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+  color: #FFF;
+}
+
+nav ul li.selected a {
+  background: #92E4DC;
+  color: #2A3F42;
+  border-top-color: #e4f8f6;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+nav ul li.dateTime {
+  float: right;
+  text-align: right;
+}
+
+nav ul li.dateTime span {
+  color: #478A85;
+  padding-right: 0;
+}
+
+/* HOME ---------------------------------------------------------*/
+
+body.home #holder {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+body.home #speakers {
+  overflow: hidden;
+  margin-bottom: 80px;
+  background: url(../images/sprite.png) 0 -1700px no-repeat;
+}
+
+body.home #speakers h2 {
+  background: url(../images/sprite.png) 0 0;
+  height: 115px;
+  margin: 80px 0;
+}
+
+body.home #speakers h2 span {
+  display: none;
+}
+
+body.home #speakers ul {
+  position: relative;
+  margin: 0;
+  height: 260px;
+}
+
+body.home #speakers ul li.speaker2 {
+  left: 137px;
+}
+
+body.home #speakers ul li.speaker3 {
+  left: 274px;
+}
+
+body.home #speakers ul li.speaker4 {
+  left: 411px;
+}
+
+body.home #speakers ul li.speaker5 {
+  left: 548px;
+}
+
+body.home #speakers ul li.speaker6 {
+  left: 685px;
+}
+
+body.home #speakers ul li.speaker7 {
+  left: 822px;
+}
+
+body.home #speakers ul li {
+  position: absolute;
+  left: 0;
+  margin: 0;
+  list-style: none; 
+}
+
+body.home #speakers ul li {
+  -webkit-transition: margin-top 100ms ease-out;
+  -moz-transition: margin-top 100ms ease-out;
+  -o-transition: margin-top 100ms ease-out;
+  transition: margin-top 100ms ease-out;
+}
+
+body.home #speakers ul li:not(.tba):hover {
+  padding-bottom: 25px;
+  margin-top: -25px;
+}
+
+body.home #speakers ul li a {
+  text-decoration: none;
+}
+
+body.home #speakers ul li a h3 {
+  text-align: center;
+  margin: 0 0 5px 0;
+  font-weight: normal;
+  color: #5E918E;
+}
+
+.js #speakers h3 {
+  -webkit-transition: color .25s ease-in-out;
+  -moz-transition: color .25s ease-in-out;
+  -o-transition: color .25s ease-in-out;
+  transition: color .25s ease-in-out;
+}
+
+body.home #speakers ul li a:hover h3,
+body.home #speakers ul li a:focus h3 {
+  color: #2A3F42;
+}
+
+body.home #speakers ul li div {
+  width: 137px;
+  height: 230px;
+}
+
+body.home #stayInTouch,
+body.home #whatTheySaid,
+body.home #whereAndWhen {
+  float: left;
+  width: 300px;
+  height: 400px;
+}
+
+body.home #whatTheySaid {
+  margin: 0 30px;
+}
+
+body.home #stayInTouch h2 span,
+body.home #whatTheySaid h2 span,
+body.home #whereAndWhen h2 span {
+  display: none;
+}
+
+body.home #stayInTouch h2,
+body.home #whatTheySaid h2,
+body.home #whereAndWhen h2 {
+  background: url(../images/sprite.png) 0 0;
+  height: 32px;
+}
+
+body.home #stayInTouch h2 {
+  background-position: 0 -115px;
+  margin-bottom: 36px;
+}
+
+body.home #whatTheySaid h2 {
+  background-position: 0 -147px;
+}
+
+body.home #whereAndWhen h2 {
+  background-position: 0 -179px;
+}
+
+body.home #whereAndWhen #map {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body.home #whereAndWhen #map h3,
+body.home #whereAndWhen #map p {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  padding: 15px;
+  background: #FFF;
+}
+
+body.home #whereAndWhen #map h3 {
+  padding-bottom: 0;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+body.home #whereAndWhen #map p {
+  color: #5E918E;
+  padding-top: 0;
+}
+
+body.home #whereAndWhen #map div {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  background: url(../images/map.png) 0 50%;
+  height: 335px;
+  width: 300px;
+  -moz-border-radius-bottomleft: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+body.home #whereAndWhen #map div span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 61px;
+  height: 61px;
+  margin: -30px 0 0 -30px;
+  background: url(../images/sprite.png) -299px -738px;
+}
+
+body.home #whereAndWhen #map:hover div span,
+body.home #whereAndWhen #map:focus div span {
+  background-position: -299px -799px;
+}
+
+/* SPEAKERS ---------------------------------------------------------*/
+
+body.speakers #speakers h2 {
+  background: url(../images/sprite.png) 0 -1076px;
+  height: 56px;
+  margin: 50px 0;
+}
+
+body.speakers #speakers h2 span {
+  display: none;
+}
+
+body.speakers #speakers ul {
+  margin: 0;
+}
+
+body.speakers #speakers ul li {
+  position: relative;
+  list-style: none;
+  min-height: 140px;
+  margin-left: 0;
+  margin-bottom: 0;
+  padding: 20px;
+}
+
+body.speakers #speakers ul li img {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+body.speakers #speakers ul li h3,
+body.speakers #speakers ul li p {
+  margin-left: 160px;
+}
+
+body.speakers #speakers ul li h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+body.speakers #speakers ul li p {
+  margin-bottom: 0;
+}
+
+body.speakers #speakers ul li h3 a {
+  color: #478a85;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+body.speakers #speakers ul li h3 span {
+  display: inline-block;
+  vertical-align: middle;
+  height: 33px;
+  background: url(../images/sprite.png) 0 0;
+}
+
+body.speakers #speakers ul li h3 span em {
+  display: none;
+}
+
+body.speakers #speakers ul li#brian h3 span {
+  width: 180px;
+  background-position: 0 -210px;
+}
+
+body.speakers #speakers ul li#seb h3 span {
+  width: 210px;
+  background-position: 0 -242px;
+}
+
+body.speakers #speakers ul li#dan h3 span {
+  width: 150px;
+  background-position: 0 -274px;
+}
+
+body.speakers #speakers ul li#alex h3 span {
+  width: 180px;
+  background-position: 0 -306px;
+}
+
+body.speakers #speakers ul li#steve h3 span {
+  width: 210px;
+  background-position: 0 -338px;
+}
+
+/* SCHEDULE ---------------------------------------------------------*/
+
+body.schedule #schedule h2 {
+  background: url(../images/sprite.png) 0 -1131px;
+  height: 56px;
+  margin: 50px 0;
+}
+
+body.schedule #schedule h2 span {
+  display: none;
+}
+
+body.schedule ol {
+  margin: 0;
+}
+
+body.schedule ol li {
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 15px;
+  margin: 0 0 20px 0;
+  background: #FFF;
+  border-color: #FFF;
+}
+
+body.schedule ol li.speaker,
+body.schedule ol li.remark {
+  background: #c8f1ed;
+  border: 1px solid transparent;
+  border-top-color: #e4f8f6;
+}
+
+body.schedule ol li.speaker:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 1px 10px rgba(0,0,0,.75);
+  -moz-box-shadow: 0 1px 10px rgba(0,0,0,.75);
+  -o-box-shadow: 0 1px 10px rgba(0,0,0,.75);
+  box-shadow: 0 1px 10px rgba(0,0,0,.75);
+}
+
+body.schedule ol li img {
+  position: absolute;
+  left: 6px;
+  top: 6px;
+}
+
+body.schedule ol li h3 {
+  float: left;
+  margin: 0 0 0 60px;
+  line-height: 28px;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+body.schedule ol li h3 span {
+  font-size: 16px;
+  font-style: normal;
+  color: #478A85;
+  margin-left: 10px;
+}
+
+body.schedule ol li h4 {
+  float: right;
+  margin: 0;
+  line-height: 28px;
+}
+
+body.schedule ol li div {
+  clear: left;
+  margin: 60px 0 0 60px;
+}
+
+body.schedule ol li.break {
+  cursor: default;
+  background: #fff url(../images/sprite.png) 0 0;
+}
+
+body.schedule ol li.registration {
+  background-position: 6px -910px;
+}
+
+body.schedule ol li.coffee {
+  background-position: 6px -1012px;
+}
+
+body.schedule ol li.lunchtime {
+  background-position: 6px -863px;
+}
+
+body.schedule ol li.party {
+  background-position: 6px -958px;
+}
+
+/* VENUE ---------------------------------------------------------*/
+
+body.venue h2 {
+  background: url(../images/sprite.png) 0 -1186px;
+  height: 52px;
+  margin: 50px 0;
+}
+
+body.venue h2 span {
+  display: none;
+}
+
+body.venue #venueDetails,
+body.venue #venueHotels,
+body.venue #venueFood,
+body.venue #afterParty {
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 20px;
+  margin: 0 0 20px 0;
+}
+
+body.venue .map {
+  float: right;
+  width: 410px;
+}
+
+body.venue .map iframe {
+  border: 5px solid #FFF;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+body.venue .map p {
+  margin: 0;
+  font-size: 10px;
+  text-align: right;
+}
+
+body.venue #venueDetails h3,
+body.venue #venueHotels h3,
+body.venue #venueFood h3,
+body.venue #afterParty h3 {
+  margin: 10px 0 30px 0;
+  background: url(../images/sprite.png) 0 0;
+  height: 32px;
+}
+
+body.venue #venueDetails .location {
+  color: #478A85;
+}
+
+body.venue #venueDetails h4 {
+  margin: 0;
+}
+
+body.venue #venueDetails h3 {
+  background-position: 0 -1297px;
+}
+
+body.venue #venueHotels h3 {
+  background-position: 0 -1329px; 
+}
+
+body.venue #venueFood h3 {
+  background-position: 0 -1361px;
+}
+
+body.venue #afterParty h3 {
+  background-position: 0 -1393px;
+}
+
+body.venue #venueDetails h3 span,
+body.venue #venueHotels h3 span,
+body.venue #venueFood h3 span,
+body.venue #afterParty h3 span {
+  display: none;
+}
+
+body.venue .details {
+  float: left;
+  width: 470px;
+}
+
+body.venue .details ul {
+  margin: 0;
+}
+
+body.venue .details ul li {
+  min-height: 60px;
+  margin: 20px 0 0 0;
+  list-style: none;
+  position: relative;
+}
+
+body.venue .details ul li:first-child {
+  margin: 0;
+}
+
+body.venue .details ul li img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+body.venue .details ul li h4,
+body.venue .details ul li p {
+  margin: 0 0 0 130px;
+}
+
+body.venue .details ul li h4 {
+  padding-top: 10px;
+}
+
+body.venue .details ul li h4 span {
+  font-weight: normal;
+}
+
+body.venue .details ul li p {
+  color: #478a85;
+}
+
+/* SPONSORS ---------------------------------------------------------*/
+
+body.sponsors #sponsors h2 {
+  background: url(../images/sprite.png) 0 -1241px;
+  height: 56px;
+  margin: 50px 0;
+}
+
+body.sponsors #sponsors h2 span {
+  display: none;
+}
+
+body.sponsors #sponsors ul {
+  margin: 0 -15px;
+}
+
+body.sponsors #sponsors ul li {
+  list-style: none;
+  margin: 0;
+  background: #FFF;
+  text-align: center;
+  float: left;
+  width: 217px;
+  margin: 15px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+body.sponsors #sponsors ul li a {
+  display: inline-block;
+  width: 137px;
+  height: 100px;
+  background-image: url(../images/sprite.png);
+}
+
+body.sponsors #sponsors ul li a span {
+  display: none;
+}
+
+/* ICONS ---------------------------------------------------------*/
+
+#socialIcons {
+  margin: 0;
+}
+
+#socialIcons li {
+  margin: 20px 0 0 0;
+  list-style: none;
+}
+
+#socialIcons li:first-child {
+  margin: 0;
+}
+
+#socialIcons .twitterIcon span,
+#socialIcons .hashIcon span,
+#socialIcons .emailIcon span {
+  background: url(../images/sprite.png) 0 -441px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 41px;
+  height: 41px;
+  margin-right: 5px;
+}
+
+
+#socialIcons .twitterIcon span {
+  background-position: -41px -441px;
+}
+
+#socialIcons .hashIcon span {
+  background-position: 0 -441px;
+}
+
+#socialIcons .emailIcon span {
+  background-position: -82px -441px;
+}
+
+/* TWITTER ---------------------------------------------------------*/
+
+#tweets {
+  min-height: 100px;
+}
+
+#tweets {
+  margin: 0;
+}
+
+#tweets li {
+  position: relative;
+  margin-left: 0;
+  margin-bottom: 0;
+  padding: 15px 15px 15px 50px;
+  list-style: none;
+}
+
+#tweets li:first-child {
+  margin: 0;
+}
+
+#tweets li img {
+  position: absolute;
+  top: 15px;
+  left: -10px;
+}
+
+#tweets li div {
+  position: absolute;
+  background: url(../images/sprite.png) -360px -738px;
+  width: 10px;
+  height: 10px;
+  bottom: -11px;
+  left: 15px;
+}
+
+#tweets li cite {
+  font-style: normal;
+}
+
+#tweets li cite a {
+  color: #5E918E;
+  text-decoration: none;
+}
+
+/* PHOTOS ---------------------------------------------------------*/
+
+#photos {
+  position: relative;
+  clear: both;
+  height: 175px;
+}
+
+#photos a {
+  bottom: 0;
+  position: absolute;
+  display: block;
+  padding-top: 30px;
+}
+
+#photos ul {
+  margin: 0;
+}
+
+#photos ul li {
+  margin: 0;
+  list-style: none;
+  position: absolute;
+  bottom: -20px;
+}
+
+#photos .photo1 {
+  bottom: -40px;
+  left: 0;
+  -moz-transform: rotate(-3deg);
+  -webkit-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+#photos .photo2 {
+  bottom: -20px;
+  left: 70px;
+  -moz-transform: rotate(3deg);
+  -webkit-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+#photos .photo3 {
+  bottom: -25px;
+  left: 120px;
+  -moz-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+#photos .photo4 {
+  bottom: -20px;
+  left: 200px;
+  -moz-transform: rotate(-4deg);
+  -webkit-transform: rotate(-4deg);
+  -o-transform: rotate(-4deg);
+  transform: rotate(-4deg);
+}
+#photos .photo5 {
+  bottom: -10px;
+  left: 285px;
+  -moz-transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  transform: rotate(10deg);
+}
+#photos .photo6 {
+  bottom: -5px;
+  left: 380px;
+  -moz-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+#photos .photo7 {
+  bottom: -20px;
+  left: 450px;
+  -moz-transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
+#photos .photo8 {
+  bottom: -10px;
+  left: 450px;
+  -moz-transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  transform: rotate(5deg);
+}
+#photos .photo9 {
+  bottom: -10px;
+  left: 500px;
+  -moz-transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  transform: rotate(10deg);
+}
+#photos .photo10 {
+  bottom: -15px;
+  left: 560px;
+  -moz-transform: rotate(-2deg);
+  -webkit-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+}
+#photos .photo11 {
+  bottom: -10px;
+  left: 630px;
+  -moz-transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  transform: rotate(10deg);
+}
+#photos .photo12 {
+  bottom: -25px;
+  left: 670px;
+  -moz-transform: rotate(7deg);
+  -webkit-transform: rotate(7deg);
+  -o-transform: rotate(-7deg);
+  transform: rotate(-7deg);
+}
+#photos .photo13 {
+  bottom: -30px;
+  left: 720px;
+  -moz-transform: rotate(-8deg);
+  -webkit-transform: rotate(-8deg);
+  -o-transform: rotate(-8deg);
+  transform: rotate(-8deg);
+}
+#photos .photo14 {
+  bottom: -30px;
+  left: 790px;
+  -moz-transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
+#photos .photo15 {
+  bottom: -45px;
+  left: 850px;
+  -moz-transform: rotate(7deg);
+  -webkit-transform: rotate(7deg);
+  -o-transform: rotate(-7deg);
+  transform: rotate(-7deg);
+}
+
+#photos li {
+  -webkit-transition: all 100ms ease-out;
+  -moz-transition: all 100ms ease-out;
+  -o-transition: all 100ms ease-out;
+  transition: all 100ms ease-out;
+}
+
+#photos li:hover {
+  bottom: 0;
+  padding-bottom: 30px;
+  -webkit-transform: rotate(0deg) scale(1.5);
+  -moz-transform: rotate(0deg) scale(1.5);
+  -o-transform: rotate(0deg) scale(1.5);
+  transform: rotate(0deg) scale(1.5);
+  z-index: 1;
+}
+
+/* FOOTER ---------------------------------------------------------*/
+
+footer {
+  position: relative;
+  background: #FFF;
+  overflow: hidden;
+  font-size: 13px;
+}
+
+footer p {
+  float: left;
+}
+
+footer p.previous {
+  float: right;
+}
+
+footer ul {
+  overflow: hidden;
+  margin: 0 0 20px 0;
+  padding: 20px 0;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+footer ul li {
+  float: left;
+  margin: 0;
+  list-style: none;
+}
+
+footer ul li a {
+  display: block;
+  width: 137px;
+  height: 100px;
+  background: #FFF url(../images/sprite.png);
+}
+
+footer ul li span {
+  display: none;
+}
+
+footer .leftLogic {
+  display: inline-block;
+  vertical-align: middle;
+  width: 117px;
+  height: 24px;
+  margin: -5px 0 0 10px;
+  background: #FFF url(../images/sprite.png) -308px -683px;
+}
+
+footer .leftLogic span {
+  display: none;
+}
+
+/* SPONSORS ---------------------------------------------------------*/
+
+.sponsor1 a {
+  background-position: 0 -483px;
+}
+.sponsor1.active a,
+.sponsor1 a:hover,
+.sponsor1 a:focus {
+  background-position: 0 -583px;
+}
+.sponsor2 a {
+  background-position: -137px -483px;
+}
+.sponsor2.active a,
+.sponsor2 a:hover,
+.sponsor2 a:focus {
+  background-position: -137px -583px;
+}
+.sponsor3 a {
+  background-position: -274px -483px;
+}
+.sponsor3.active a,
+.sponsor3 a:hover,
+.sponsor3 a:focus {
+  background-position: -274px -583px;
+}
+.sponsor4 a {
+  background-position: -411px -483px;
+}
+.sponsor4.active a,
+.sponsor4 a:hover,
+.sponsor4 a:focus {
+  background-position: -411px -583px;
+}
+.sponsor5 a {
+  background-position: -548px -483px;
+}
+.sponsor5.active a,
+.sponsor5 a:hover,
+.sponsor5 a:focus {
+  background-position: -548px -583px;
+}
+.sponsor6 a {
+  background-position: -685px -483px;
+}
+.sponsor6.active a,
+.sponsor6 a:hover,
+.sponsor6 a:focus {
+  background-position: -685px -583px;
+}
+.sponsor7 a {
+  background-position: -822px -483px;
+}
+.sponsor7.active a,
+.sponsor7 a:hover,
+.sponsor7 a:focus {
+  background-position: -822px -583px;
+}
+
+footer .inner {
+  margin: 0 auto;
+}
+
+.venue .map a img {
+  border: 5px solid #fff;
+  border-radius: 5px;
+}
+
+#speakers .box img {
+  border: 1px inset rgb(146,228,220);
+  border: 1px inset rgba(146,228,220,.5);
+}
+
+body.crazyload * {
+  -webkit-transition: all 5000ms ease !important;
+  -moz-transition: all 5000ms ease-in !important;
+  -o-transition: all 5000ms ease-in !important;
+  transition: all 5000ms ease-in !important;
+}

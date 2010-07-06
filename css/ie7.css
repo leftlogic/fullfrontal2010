@@ -1,0 +1,29 @@
+body.speakers #speakers ul li h3 span {
+	vertical-align: middle;
+}
+
+body.speakers #speakers ul li h3 a {
+	vertical-align: middle;
+	display: inline-block;
+	padding: 5px 0;
+}
+
+footer {
+	position: relative;
+	z-index: 1;
+}
+
+nav,
+#photos,
+#tweets li,
+body.sponsors #sponsors ul {
+	zoom: 1;
+}
+
+body.speakers #speakers ul li h3 {
+	padding-top: 10px;
+}
+
+#tweets li div {
+	bottom: -10px;
+}

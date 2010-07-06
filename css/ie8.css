@@ -1,0 +1,9 @@
+body.speakers #speakers ul li h3 span {
+	vertical-align: middle;
+}
+
+body.speakers #speakers ul li h3 a {
+	vertical-align: middle;
+	display: inline-block;
+	padding-top: 8px;
+}
