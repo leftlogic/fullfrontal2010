@@ -41,14 +41,14 @@
     
       <p>Full Frontal is a one day JavaScript conference organised by Left Logic &ndash; <a href="#">Terms &amp; Conditions</a></p>
       
-      <p class="previous">Previous Years: <a href="#">2009</a> <a href="http://leftlogic.com" class="leftLogic"><span>Left Logic</span></a></p>
+      <p class="previous">Previous Years: <a href="http://2009.full-frontal.org">2009</a> <a href="http://leftlogic.com" class="leftLogic"><span>Left Logic</span></a></p>
   
     </div>
   
   </footer>
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
-  <script src="js/base.js"></script>
+  <script src="/js/base.js"></script>
 </body>
 </html>
 <?php

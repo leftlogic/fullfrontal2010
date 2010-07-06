@@ -14,7 +14,7 @@
     </li>
 
     <li class="box speaker">
-      <h3>Why we'll stop using so much JavaScript in the near future <span>Alex Russell</span></h3>
+      <h3>TBC: Why we'll stop using so much JavaScript in the near future <span>Alex Russell</span></h3>
       <h4>09.00 &ndash; 10.00</h4>
       <img src="images/speakers/alex_schedule.jpg" width="48" height="48" alt="Alex Russell" title="Alex Russell" />
     </li>
@@ -31,7 +31,6 @@
         <p>This talk is a gentle introduction into the nebulous topic of the peer to peer web. We'll have a look at mobile devices, laptops, desktops and the cloud and how they all fit together today and how it it is already shaping up to look in the future.</p>
         <p>I'll highlight some technical and social hurdles that need solving (this is where I hope to get you, the listener engaged in helping to shape the future).</p>
         <p>Finally, I'll propose how Apache CouchDB is one of the foundational building blocks of our peer to peer future.</p>
-        <p>No worries, this isn't a sales pitch, I wouldn't be working on CouchDB if I weren't passionate about the peer to peer web and I wouldn't believe CouchDB is a necessary part of it :)</p>
       </div>
     </li>
     <li class="box speaker">
@@ -50,7 +49,7 @@
       <img src="images/speakers/dan_schedule.jpg" width="48" height="48" alt="Dan Webb" title="Dan Webb" />
     </li>
     <li class="box speaker">
-      <h3>ARIA-slash-JavaScript-foo <span>Steve Faulkner</span></h3>
+      <h3>TBC: ARIA-slash-JavaScript-foo <span>Steve Faulkner</span></h3>
       <h4>09.00 &ndash; 10.00</h4>
       <img src="images/speakers/steve_schedule.jpg" width="48" height="48" alt="Steve Faulkner" title="Steve Faulkner" />
     </li>
@@ -74,9 +73,13 @@
       </div>
     </li>
     <li class="box speaker">
-      <h3>JavaScript: A fish out of water? <span>Seb Lee-Delisle</span></h3>
+      <h3>Pixel <del>Pushing</del> Pounding <span>Seb Lee-Delisle</span></h3>
       <h4>09.00 &ndash; 10.00</h4>
       <img src="images/speakers/seb_schedule.jpg" width="48" height="48" alt="Seb Lee-Delisle" title="Seb Lee-Delisle" />
+      <div>
+        <p>Seb Lee-Delisle brings his experience programming visual effects from the World of Flash to the Universe of JavaScript to show how to create dynamic canvas effects. He'll also show how you can now use JavaScript within unity3d to produce console quality games that run in the browser, on your iPhone and even on your Xbox!</p>
+        
+      </div>
     </li>
     <li class="box remark">
       <h3>Closing Remarks <span>Remy Sharp</span></h3>

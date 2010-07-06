@@ -1,132 +1,55 @@
 <?php
-$thanks = false;
-$error = false;
-$email = '';
+$file = isset($_GET['request']) && $_GET['request'] ? $_GET['request'] : 'home';
+$file = preg_replace('/\.html/', '', $file);
+$file = preg_replace('/[^a-z]/', '', $file);
 
-function validEmail($e) {
-  return (preg_match("/^([_a-z0-9-\+]+(\.[_a-z0-9-\+]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3}))$/", $e));  
+$titles = array(
+    'speakers' => '',
+    'terms' => 'Terms and Conditions - ',
+    'privacy' => 'Privacy - ',
+    'travel' => 'Travel Details - '
+);
+
+$crazyload = false;
+
+if (preg_match('/rv:1\.(([1-8]|9pre|9a|9b[0-4])\.[0-9.]+).*Gecko/', @$_SERVER['HTTP_USER_AGENT'])) {
+    header('Content-type: application/xhtml+xml');
 }
 
-if (isset($_POST['email']) && $_POST['email'] && validEmail($_POST['email'])) {
-  $email = $_POST['email'];
-  $fp = fopen('emails.txt', 'a+');
-  fwrite($fp, $email . "\n");
-  fclose($fp);
-  $thanks = true;
-} else if (isset($_POST['email'])) {
-  $error = true;
+if ($file == 'ticketdraw' && $_SERVER['REQUEST_METHOD'] == 'HEAD') {
+    // register the user for a ticket draw
+    $db = mysql_connect('localhost','fullfrontal','fullfrontal99');
+
+    if ($db) {
+        if (mysql_select_db('fullfrontal',$db)) {
+          // first check if they have registered this year, if so, update
+          $sql = sprintf('select * from ticket_draw where year=' . date('Y', time()) . ' and email="%s" and url="%s"', mysql_real_escape_string($_GET['email']), mysql_real_escape_string($_GET['url']));
+          $result = mysql_query($sql, $db);
+          
+          if (mysql_num_rows($result) > 0) {
+              $sql = sprintf('update ticket_draw set last_update = now() where year=' . date('Y', time()) . ' and email="%s" and url="%s"', mysql_real_escape_string($_GET['email']), mysql_real_escape_string($_GET['url']));
+          } else {
+            $sql = sprintf('insert into ticket_draw (year, last_update, email, url) values (' . date('Y', time()) . ', now(), "%s", "%s")', mysql_real_escape_string($_GET['email']), mysql_real_escape_string($_GET['url']));
+          }
+          mysql_query($sql, $db);
+    	}
+
+    } 
+    mysql_close($db);
+    
+
+} else {
+  
+  if (!file_exists('includes/' . $file . '.php')) {
+    $file = 'home';
+    header("HTTP/1.0 404 Not Found");
+    $crazyload = true;
+  }
+  
+  include('includes/header.php');
+  include('includes/' . $file . '.php');
+  include('includes/footer.php');
 }
+
+
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset=utf-8 />
-<title>Full Frontal - JavaScript Conference - 12th November 2010</title>
-<!--
-
-Hello there! \o,
-
-So you're interested in my sauce then? Good for you - many a developer has learnt from 
-popping the hood on web pages and sniffing around the source code. Since you've come 
-this far already, I thought I'd outline the juicy bits I've left for you in my code:
-
-1. We're using a "version-less" doctype, which switches to HTML5
-2. <script> tags go without the type attribute
-3. I'm using the latest version of the HTML5 shiv (http://bit.ly/cm2Lrb)
-4. I've used HTML5 elements where possible, and in particular, am using the <details>
-   element with a sprinkle of JavaScript - which I'll come on to
-5. I'm also using the placeholder attribute
-
-So, new sexy HTML5 elements, eh? Yep, no problem. I'm using <details> which is supposed
-to be interactive (but not currently native), and I'm using the placeholder attribute 
-which is only natively supported in Safari and Chrome. So to make this work across 
-browsers, I've added a  sprinkle of JavaScript - it's all sitting in 
-http://2010.full-frontal.org/html5.js
-
-In there you'll find patching JavaScript to add support to placeholder and autofocus
-and further in the script you'll find the code to support <details>. It's all fairly
-new so if you find a bug, let me know via Twitter @rem.
-
-Otherwise, thanks for stopping by, and hopefully you can make it to my conference,
-I planning on making it just as awesome as last year!
-
-Cheers,
-
-- Remy.
-
--->
-<link rel="stylesheet" href="holding2010.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="print.css" type="text/css" media="print" />
-<!--[if lte IE 7]>
-<link rel="stylesheet" href="ie.css" type="text/css" media="screen" charset="utf-8" />
-<![endif]-->
-<script>
-// enable elements for styling in IE
-/*@cc_on'abbr article aside audio canvas details figcaption figure footer header hgroup mark menu meter nav output progress section summary time video'.replace(/\w+/g,function(n){document.createElement(n)})@*/
-</script>
-</head>
-<body class="vevent">
-  <div id="content">
-    <header class="summary">
-      <h1><a title="One day JavaScript conference" class="url" href="http://2010.full-frontal.org/">Full Frontal</a></h1>
-      <h2>JavaScript Conference <time datetime="2010-11-12T09:00">12th November 2010</time></h2>
-      <h3>the <em>JavaScript Conference</em> with nothing concealed or held back</h3>
-    </header>
-    <section class="action" id="mailinglist">
-      <h1>Join our mailing list</h1>
-      <form action="" method="post">
-        <fieldset>
-          <label for="email">Email</label>
-          <input type="email" placeholder="Enter your email address" value="<?=$email?>" name="email" id="email" /><input type="submit" class="button" value="Subscribe" />
-          <?php if ($thanks) : ?>
-          <p id="thanks">Thanks for submitting your email address - we'll be in touch as soon as the tickets go on sale!</p>
-          <?php elseif ($error) : ?>
-          <p class="err">There was an error when trying to save your email address. Can you check it and try again?</p>
-          <?php endif ?>
-          <p>Taking place in Brighton, UK at the <a href="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=duke+of+york,+brighton&amp;vps=1&amp;jsv=154c&amp;sll=-4.1666,152.462156&amp;sspn=0.298928,0.261955&amp;g=duke+of+york&amp;ie=UTF8&amp;ei=5wnnSebDG4SIowP6naDwCg&amp;sig2=uIG8UqE0YmlndQ6g6HnVtw&amp;cd=1&amp;cid=50833651,-138411,13647004259206618235&amp;li=lmd&amp;z=14&amp;t=m">Duke of Yorks cinema</a> again, you&rsquo;ll find out when tickets go on sale and we&rsquo;ll update you with the latest event information &mdash; including confirming speakers as they happen.</p>
-        </fieldset>
-      </form>
-    </section>
-    <section class="subitems" id="wanttospeak">
-      <h1>Want to speak?</h1>
-      <details open>
-        <summary>Submit your abstract</summary>
-        <p>If you&rsquo;re interested in speaking at our second event, <a href="mailto:events@leftlogic.com?subject=Speaker%20Proposal">drop us an email</a> with your talk title, description and a bit about yourself.</p>
-      </details>
-    </section>
-    <section class="subitems" id="wanttosponsor">
-      <h1>Want to sponsor?</h1>
-      <details open>
-        <summary>Get in touch</summary>
-        <p>Interested in sponsoring the Full Frontal JavaScript Conference? <a href="mailto:events@leftlogic.com">Get in touch</a> to discuss the opportunities available.</p>
-      </details>
-    </section>        
-    <div class="clear"></div>
-    <section class="tweets">
-      <h1>What people are saying</h1>
-      <!-- from: http://twitter.com/fullfrontalconf/favorites -->
-      <ul id="tweets">
-        <?php
-        $favs = json_decode(file_get_contents('./fullfrontalconf.json'));
-        shuffle($favs);
-        for ($i = 0; $i < 3; $i++) : $fav = $favs[$i]; ?>
-        <li><a href="http://twitter.com/<?=$fav->user->screen_name?>/statuses/<?=$fav->id?>"><strong>@<?=$fav->user->screen_name?></strong><?=htmlentities($fav->text)?></a></li>
-        <?php endfor ?>
-      </ul>
-      <a id="followus" href="http://twitter.com/fullfrontalconf">Follow Us</a>
-    </section>
-  </div>
-  <footer>&copy; 2010 Left Logic Ltd &asymp; Previous years: <a href="http://2009.full-frontal.org">2009</a></footer>
-<script src="html5.js"></script>
-<script>
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-1656750-20']);
-_gaq.push(['_trackPageview']);
-(function() {
-  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
-})();
-</script>
-</body>
-</html>

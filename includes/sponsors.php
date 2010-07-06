@@ -2,8 +2,10 @@
 
   <h2><span>The Sponsors</span></h2>
 
-  <p>Full Frontal JavaScript Conference is being held at the historic Duke of York’s Picturehouse in Brighton. It is centrally located on Preston Circus, less than 15 minutes walk from Brighton train station. Trains run regularly from Gatwick Airport, London Bridge and London Victoria stations.</p>
+  <p>Sponsoring Full Frontal will mean web developers, bloggers and other members of the community will get to know your company better and see that you want to support their community. You will have the opportunity to promote your brand and products to attendees and meet possibly new employees, clients or users. There are also networking opportunities throughout the conference and during the after party.</p>
+  <p>Find out how your company can sponsor Full Frontal by reviewing our <a href="sponsorship.html">sponsorship packages</a> and <a href="mailto:events@leftlogic.com">get in touch</a> with us to dicuss how we can work together.</p>
 
+  <h3>Full Frontal is proudly sponsored and supported by:</h3>
   <ul>
     <li class="sponsor1 active"><a href="http://developer.yahoo.com/"><span>Yahoo</span></a></li>
     <li class="sponsor3 active"><a href="http://pusherapp.com/"><span>Pusher</span></a></li>

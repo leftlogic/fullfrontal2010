@@ -64,11 +64,11 @@
     </li>
     <li class="hashIcon">
       <span></span>
-      Use the <a href="http://search.twitter.com/search?q=%23fullfrontal2010">#fullfrontal2010</a> tag
+      Use the <a href="http://search.twitter.com/search?q=%23fullfrontalconf">#fullfrontalconf</a> tag
     </li>
     <li class="emailIcon">
       <span></span>
-      <a href="mailto:events@leftlogic.com">Email us</a> if you want to sponsor the event
+      <a href="mailto:events@leftlogic.com">Email us</a> to become a sponsor
     </li>
   </ul>
 
@@ -79,21 +79,35 @@
   <h2><span>What they said</span></h2>
 
   <ul id="tweets">
-    <li class="box">
-      <a href="#"><img src="http://a1.twimg.com/profile_images/518275190/olney_buster_m_normal.jpg" width="48" height="48" alt="mikedeboer" title="mikedeboer" /></a>
-      <quote><cite><a href="#">mikedeboer</a></cite> Just back from #fullfrontal09, which was awesome. Met a lot of nice people as well. Thanks @rem!</quote>
-      <div></div>
-    </li>
-    <li class="box">
-      <a href="#"><img src="http://a1.twimg.com/profile_images/699537060/oliverkay_70x70_normal.jpg" width="48" height="48" alt="mikedeboer" title="mikedeboer" /></a>
-      <quote><cite><a href="#">mikedeboer</a></cite> Attended #fullfrontal09 yesterday, was a good conference. Lots of interesting stuff. Talks from @ppk and @jaffathecake were the highlights.</quote>
-      <div></div>
-    </li>
-    <li class="box">
-      <a href="#"><img src="http://a1.twimg.com/profile_images/786115776/Photo_on_2010-03-26_at_21.14_normal.jpg" width="48" height="48" alt="mikedeboer" title="mikedeboer" /></a>
-      <quote><cite><a href="#">mikedeboer</a></cite> @fullfrontalconf thanks for an awesome event! It was certainly worth the trip from Amsterdam-cu next year! #fullfrontal09 (cc @remy)</quote>
-      <div></div>
-    </li>
+<?php
+function linkify($text) {
+  // note - this order is important, i.e. links at the top, then anything else
+  $matches = array(
+    '/([A-Za-z]+:\/\/[A-Za-z0-9-_]+\.[A-Za-z0-9-_:%&\?\/.=]+)/',
+    '/(^|[^\w])(#[\d\w\-]+)/',
+    '/(^|[^\w])(@([\d\w\-]+))/'
+  );
+  
+  $replacements = array(
+    '<a href="$1">$1</a>',
+    '$1<a href="http://search.twitter.com/search?q=$2">$2</a>',
+    '$1@<a href="http://twitter.com/$3">$3</a>'
+  );
+  
+  return preg_replace($matches, $replacements, $text);
+}
+
+
+$favs = json_decode(file_get_contents('./fullfrontalconf.json'));
+shuffle($favs);
+for ($i = 0; $i < 3; $i++) : $fav = $favs[$i]; ?>
+
+<li class="box">
+  <a href="http://twitter.com/<?=$fav->user->screen_name?>/statuses/<?=$fav->id?>"><img src="<?=$fav->user->profile_image_url?>" width="48" height="48" alt="<?=$fav->user->screen_name?>" title="<?=$fav->user->screen_name?>" /></a>
+  <quote><cite><a href="http://twitter.com/<?=$fav->user->screen_name?>"><?=$fav->user->screen_name?></a></cite> <?=linkify(htmlentities($fav->text))?></quote>
+  <div></div>
+</li>
+<?php endfor ?>
   </ul>
 
 </section>

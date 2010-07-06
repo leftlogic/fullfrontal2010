@@ -539,7 +539,12 @@ body.speakers #speakers ul li#alex h3 span {
 
 body.speakers #speakers ul li#steve h3 span {
   width: 210px;
-  background-position: 0 -338px;
+  background-position: 0 -336px;
+}
+
+body.speakers #speakers ul li#jan h3 span {
+  width: 190px;
+  background-position: 0 -369px;  
 }
 
 /* SCHEDULE ---------------------------------------------------------*/
