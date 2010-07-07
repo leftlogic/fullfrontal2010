@@ -7,8 +7,14 @@ $('body.home #venue div').height( $('body.home ul#tweets').outerHeight() - 60 );
 $('nav ul a[href$=' +location.pathname + ']').parent().addClass('selected');
 
 $('#schedule li').click(function () {
-  $(this).find('div').animate({
-    height: 'toggle',
-    opacity: 'toggle'
-  }, 100);
-}).find('div').hide();
+  $(this).find('div').each(function () {
+    var $el = $(this), 
+        h = $el.height(),
+        hide = [{ height: 0, marginTop: 0 }, 100 ],
+        show = [{ height: $.data(this, 'height'), marginTop: $.data(this, 'margin') }, 800, 'easeOutBounce' ];
+    $el.animate.apply($el, h > 0 ? hide : show);
+  });
+}).find('div').each(function () {
+  var $el = $(this);
+  $.data(this, { height: $el.height(), margin: $el.css('marginTop') });
+}).css({ marginTop: 0, height: 0, overflow: 'hidden'});

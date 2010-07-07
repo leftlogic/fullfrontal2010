@@ -1,7 +1,5 @@
-<article id="workshops">
-
-  <h2><span>Workshops</span></h2>
- 
+<h2><span>Workshops</span></h2>
+<article id="workshops"> 
   <ul>
     
   </ul>

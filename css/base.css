@@ -642,6 +642,15 @@ body.schedule ol li.party {
   background-position: 6px -958px;
 }
 
+/* WORKSHOP ------------------------------------------------------*/
+
+body.workshops h2 {
+  background: url(../images/sprite.png) 0 -1430px;
+  height: 52px;
+  margin: 50px 0;
+}
+
+
 /* VENUE ---------------------------------------------------------*/
 
 body.venue h2 {
@@ -650,7 +659,7 @@ body.venue h2 {
   margin: 50px 0;
 }
 
-body.venue h2 span {
+h2 > span {
   display: none;
 }
 
@@ -1191,4 +1200,12 @@ body.crazyload * {
   -moz-transition: all 5000ms ease-in !important;
   -o-transition: all 5000ms ease-in !important;
   transition: all 5000ms ease-in !important;
+}
+
+body.crazyload #speakers h2 {
+  background: url(../images/404.png) no-repeat center;
+}
+
+hgroup h2 {
+  background: none !important; /* ffs :( */
 }
