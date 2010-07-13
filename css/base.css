@@ -135,7 +135,7 @@ header #tickets {
   float: right;
   margin-top: -25px;
   display: block;
-  width: 414px;
+  width: 410px;
   height: 90px;
 }
 
@@ -146,35 +146,35 @@ header #tickets a {
 }
 
 #tickets.soldout {
-  background: url(../images/button_soldout.png) 0 -90px;
+  background: url(../images/button_soldout.png) 100% -90px;
 }
 #tickets.soldout:hover,
 #tickets.soldout:focus {
-  background-position: 0 0;
+  background-position: 100%  0;
 }
 
 #tickets.earlybird {
-  background: url(../images/button_earlybird.png) 0 -90px;
+  background: url(../images/button_earlybird.png) 100%  -90px;
 }
 #tickets.earlybird:hover,
 #tickets.earlybird:focus {
-  background-position: 0 0;
+  background-position: 100%  0;
 }
 
 #tickets.standard {
-  background: url(../images/button_standard.png) 0 -90px;
+  background: url(../images/button_standard.png) 100%  -90px;
 }
 #tickets.standard:hover,
 #tickets.standard:focus {
-  background-position: 0 0;
+  background-position: 100%  0;
 }
 
 #tickets.soon {
-  background: url(../images/button_soon.png) 0 -90px;
+  background: url(../images/button_soon.png) 100%  -90px;
 }
 #tickets.soon:hover,
 #tickets.soon:focus {
-  background-position: 0 0;
+  background-position: 100%  0;
 }
 
 header #tickets h3,
@@ -255,6 +255,10 @@ nav ul li.dateTime span {
 }
 
 /* HOME ---------------------------------------------------------*/
+
+body.home #schedule {
+  display: none;
+}
 
 body.home #holder {
   font-size: 14px;
@@ -549,21 +553,21 @@ body.speakers #speakers ul li#jan h3 span {
 
 /* SCHEDULE ---------------------------------------------------------*/
 
-body.schedule #schedule h2 {
+.schedule #schedule h2 {
   background: url(../images/sprite.png) 0 -1131px;
   height: 56px;
   margin: 50px 0;
 }
 
-body.schedule #schedule h2 span {
+.schedule #schedule h2 span {
   display: none;
 }
 
-body.schedule ol {
+.schedule ol {
   margin: 0;
 }
 
-body.schedule ol li {
+.schedule ol li {
   position: relative;
   overflow: hidden;
   list-style: none;
@@ -573,14 +577,14 @@ body.schedule ol li {
   border-color: #FFF;
 }
 
-body.schedule ol li.speaker,
-body.schedule ol li.remark {
+.schedule ol li.speaker,
+.schedule ol li.remark {
   background: #c8f1ed;
   border: 1px solid transparent;
   border-top-color: #e4f8f6;
 }
 
-body.schedule ol li.speaker:hover {
+.schedule ol li.speaker:hover {
   cursor: pointer;
   -webkit-box-shadow: 0 1px 10px rgba(0,0,0,.75);
   -moz-box-shadow: 0 1px 10px rgba(0,0,0,.75);
@@ -588,13 +592,13 @@ body.schedule ol li.speaker:hover {
   box-shadow: 0 1px 10px rgba(0,0,0,.75);
 }
 
-body.schedule ol li img {
+.schedule ol li img {
   position: absolute;
   left: 6px;
   top: 6px;
 }
 
-body.schedule ol li h3 {
+.schedule ol li h3 {
   float: left;
   margin: 0 0 0 60px;
   line-height: 28px;
@@ -603,42 +607,42 @@ body.schedule ol li h3 {
   font-style: italic;
 }
 
-body.schedule ol li h3 span {
+.schedule ol li h3 span {
   font-size: 16px;
   font-style: normal;
   color: #478A85;
   margin-left: 10px;
 }
 
-body.schedule ol li h4 {
+.schedule ol li h4 {
   float: right;
   margin: 0;
   line-height: 28px;
 }
 
-body.schedule ol li div {
+.schedule ol li div {
   clear: left;
   margin: 60px 0 0 60px;
 }
 
-body.schedule ol li.break {
+.schedule ol li.break {
   cursor: default;
   background: #fff url(../images/sprite.png) 0 0;
 }
 
-body.schedule ol li.registration {
+.schedule ol li.registration {
   background-position: 6px -910px;
 }
 
-body.schedule ol li.coffee {
+.schedule ol li.coffee {
   background-position: 6px -1012px;
 }
 
-body.schedule ol li.lunchtime {
+.schedule ol li.lunchtime {
   background-position: 6px -863px;
 }
 
-body.schedule ol li.party {
+.schedule ol li.party {
   background-position: 6px -958px;
 }
 
@@ -1208,4 +1212,101 @@ body.crazyload #speakers h2 {
 
 hgroup h2 {
   background: none !important; /* ffs :( */
+}
+
+@media screen and (max-width: 820px) {
+  .home #speakers, 
+  .home #whatTheySaid, 
+  .home #whereAndWhen,
+  .home #stayInTouch {
+    display: none;
+  }
+  
+  .inner, nav ul {
+    width: auto;
+  }
+  
+  nav {
+    display: none;
+  }
+  
+  h2 { display: none; }
+
+  header {
+    padding: 10px 5px;
+    margin-bottom: 10px;
+  }
+  
+  #photos {
+    display: none;
+  }
+
+  header a.home {
+    float: none;
+  }
+
+  header #tickets {
+/*    float: none;*/
+    margin-top: 0;
+  }
+  
+  #tickets.soon {
+    background-position: 100% -90px;
+  }
+  
+  .schedule ol li {
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-right: 10px;
+    min-height: 30px;
+  }
+  
+  .schedule ol li h3 {
+    font-size: 18px;
+  }
+  
+  .schedule ol li h3 span {
+    display: block;
+    margin-left: 0;
+    font-size: 14px;
+  }
+  
+  .schedule ol li div {
+    clear: both;
+  }
+  
+  .schedule ol li div p:last-child {
+    padding-bottom: 10px;
+  }
+  
+  .schedule ol li.party span {
+    display: none;
+  }
+  
+  body.home #schedule {
+    margin: 0 10px;
+    display: block;
+  }
+  
+  .schedule ol li.registration {
+    background-position: 6px -920px;
+  }
+
+  .schedule ol li.coffee {
+    background-position: 6px -1022px;
+  }
+
+  .schedule ol li.lunchtime {
+    background-position: 6px -873px;
+  }
+
+  .schedule ol li.party {
+    background-position: 6px -968px;
+  }
+
+  footer p {
+    float: none;
+    padding: 10px;
+  }
+  
 }

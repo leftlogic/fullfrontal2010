@@ -1,12 +1,10 @@
 <section id="speakers">
-
   <h2><span>The one day JavaScript conference featuring these fine people</span></h2>
- 
   <ul>
     <li class="speaker1">
       <a href="speakers#alex">
         <h3>Alex Russell</h3>
-        <img src="images/speakers/alex_home.jpg" width="137" height="230" alt="Alex Russell" title="Alex Russell" />
+        <img src="images/speakers/alex_home.jpg" width="137" height="230" alt="Alex Russell" title="Alex Russell, photo by Eugene Lazutkin" />
       </a>
     </li>
     <li class="speaker2">
@@ -30,7 +28,7 @@
     <li class="speaker5">
       <a href="speakers#steve">
         <h3>Steve Faulkner</h3>
-        <img src="images/speakers/steve_home.jpg" width="137" height="230" alt="Steve Faulkner" title="Steve Faulkner" />
+        <img src="images/speakers/steve_home.jpg" width="137" height="230" alt="Steve Faulkner" title="Steve Faulkner, photo by Patrick H. Lauke" />
       </a>
     </li>
     <li class="speaker6">
@@ -46,17 +44,12 @@
       </a>
     </li>
   </ul>
- 
 </section>
 
 <section id="stayInTouch">
-
   <h2><span>Stay in touch</span></h2>
-
   <p>Full Frontal 2010 is taking place in Brighton, UK at the Duke of Yorks cinema again.</p>
-
   <p>Make sure to follow us on Twitter to find out when tickets go on sale and the latest event information &ndash; including confirming speakers as they happen.</p>
-
   <ul id="socialIcons">
     <li class="twitterIcon">
       <span></span>
@@ -71,13 +64,10 @@
       <a href="mailto:events@leftlogic.com">Email us</a> to become a sponsor
     </li>
   </ul>
-
 </section>
 
 <section id="whatTheySaid">
-
   <h2><span>What they said</span></h2>
-
   <ul id="tweets">
 <?php
 function linkify($text) {
@@ -109,25 +99,19 @@ for ($i = 0; $i < 3; $i++) : $fav = $favs[$i]; ?>
 </li>
 <?php endfor ?>
   </ul>
-
 </section>
 
 <section id="whereAndWhen">
-
   <h2><span>Where and when?</span></h2>
-
   <section id="venue">
-  
     <a href="venue" id="map">
-  
       <h3>Duke of York's, Brighton</h3>
-
       <p>9am to 6pm 12th November 2010</p>
-    
       <div><span></span></div>
-    
     </a>
-  
   </section>
-
 </section>
+
+<div class="schedule">
+<?php include('includes/schedule.php'); ?>
+</div>

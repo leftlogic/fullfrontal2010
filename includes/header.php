@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" manifest="2010.manifest">
 <head>
-
   <meta charset=utf-8 />
   <title>Full Frontal - JavaScript Conference - 12th November 2010</title>
+  <meta id="meta" name="viewport" content="width=device-width; initial-scale=1.0" />
+  <link rel="apple-touch-icon" href="images/icon.png" />  
   <script>
   // enable elements for styling in IE
   /*@cc_on'abbr article aside audio canvas details figcaption figure footer header hgroup mark menu meter nav output progress section summary time video'.replace(/\w+/g,function(n){document.createElement(n)})@*/
@@ -20,12 +21,12 @@
   <header id="header">
   
     <div class="inner">
-      <a class="home" href="/">
-        <hgroup>
+      <hgroup>
+        <a class="home" href="/">
           <h1>Full Frontal</h1>
           <h2>JavaScript Conference</h2>
-        </hgroup>
-      </a>
+        </a>
+      </hgroup>
       <div id="tickets" class="soon">
         <!-- <a href="#"> -->
           <h3>Tickets available soon</h3> 
