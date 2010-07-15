@@ -6,8 +6,12 @@
   <p>Find out how your company can sponsor Full Frontal by reviewing our <a href="sponsorship.html">sponsorship packages</a> and <a href="mailto:events@leftlogic.com">get in touch</a> with us to dicuss how we can work together.</p>
 
   <h3>Full Frontal is proudly sponsored by:</h3>
+  <h4>Half Monties</h4>
   <ul>
     <li class="sponsor1 active"><a href="http://developer.yahoo.com/"><span>Yahoo</span></a></li>
+  </ul>
+  <h4>Small Monties</h4>
+  <ul>
     <li class="sponsor3 active"><a href="http://pusherapp.com/"><span>Pusher</span></a></li>
     <li class="sponsor4 active"><a href="http://dharmafly.com/work-with-us"><span>Dhamafly</span></a></li>
     <li class="sponsor7 active"><a href="http://netmag.co.uk/"><span>.net</span></a></li>
