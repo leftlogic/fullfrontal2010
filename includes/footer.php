@@ -39,7 +39,7 @@
         <li class="sponsor7"><a href="http://netmag.co.uk/"><span>.net</span></a></li>
       </ul>
     
-      <p>Full Frontal is a one day JavaScript conference organised by Left Logic &ndash; <a href="#">Terms &amp; Conditions</a></p>
+      <p>Full Frontal is a one day JavaScript conference organised by Left Logic &ndash; <a href="/terms">Terms &amp; Conditions</a></p>
       
       <p class="previous">Previous Years: <a href="http://2009.full-frontal.org">2009</a> <a href="http://leftlogic.com" class="leftLogic"><span>Left Logic</span></a></p>
   

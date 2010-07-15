@@ -36,6 +36,14 @@
       <p>Jan is a contributor to Apache CouchDB and co-organizer of <a href="http://www.jsconf.eu/" title="JSConf.eu - 2010">JSConf.eu</a>, the <em>other</em> great JavaScript conference.</p>
       <img src="images/speakers/jan_profile.jpg" width="137" height="140" alt="Jan Lehnardt" title="Jan Lehnardt" />
     </li>
+    <li class="box" id="remy">
+      <h3><span><em>Remy Sharp</em></span> <a href="http://twitter.com/rem">@rem</a></h3>
+        <p>Remy Sharp is a developer, speaker, blogger, one of the authors behind <a href="http://www.amazon.co.uk/Introducing-HTML5-Voices-That-Matter/dp/0321687299">Introduction to HTML5</a> (New Riders). He is one of the curators of <a href="http://html5doctor.com">HTML5 Doctor</a>, and he's also one of the two organisers behind this conference: Full Frontal JavaScript Conference.</p>
+        <p>jQuery team member (developer relations, formally evangelism) and the developer on a fistful of JavaScript related apps, Remy loves his JavaScript and he is keen as mustard to share it with other developers.</p>
+        <img src="images/speakers/remy_profile.jpg" width="137" height="140" alt="Remy Sharp" title="Remy Sharp" />
+      </div>
+      
+    </li>
   </ul>
  
 </article>

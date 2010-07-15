@@ -1,20 +1,25 @@
 CACHE MANIFEST
 
-# version 3
+# version 5
 
-CACHE:
-css/reset.css
-css/base.css
-images/speakers/alex_schedule.jpg
-images/speakers/brian_schedule.jpg
-images/speakers/dan_schedule.jpg
-images/speakers/jan_schedule.jpg
-images/speakers/remy_schedule.jpg
-images/speakers/seb_schedule.jpg
-images/speakers/steve_schedule.jpg
-images/speakers/tba_schedule.jpg
-images/sprite.png
-images/button_soon.png
-js/jquery.min.js
-js/easing.js
-js/base.js
+# CACHE:
+# css/reset.css
+# css/base.css
+# images/speakers/alex_schedule.jpg
+# images/speakers/brian_schedule.jpg
+# images/speakers/dan_schedule.jpg
+# images/speakers/jan_schedule.jpg
+# images/speakers/remy_schedule.jpg
+# images/speakers/seb_schedule.jpg
+# images/speakers/steve_schedule.jpg
+# images/speakers/tba_schedule.jpg
+# images/sprite.png
+# images/button_soon.png
+# js/jquery.min.js
+# js/easing.js
+# js/base.js
+# 
+# # this ensures everything else goes via the web
+NETWORK:
+*
+# /*

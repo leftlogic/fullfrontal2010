@@ -4,43 +4,43 @@
     <li class="speaker1">
       <a href="speakers#alex">
         <h3>Alex Russell</h3>
-        <img src="images/speakers/alex_home.jpg" width="137" height="230" alt="Alex Russell" title="Alex Russell, photo by Eugene Lazutkin" />
+        <img src="/images/speakers/alex_home.jpg" width="137" height="230" alt="Alex Russell" title="Alex Russell, photo by Eugene Lazutkin" />
       </a>
     </li>
     <li class="speaker2">
       <a href="speakers#brian">
         <h3>Brian Leroux</h3>
-        <img src="images/speakers/brian_home.jpg" width="137" height="230" alt="Brian Leroux" title="Brian Leroux" />
+        <img src="/images/speakers/brian_home.jpg" width="137" height="230" alt="Brian Leroux" title="Brian Leroux" />
       </a>
     </li>
     <li class="speaker3">
       <a href="speakers#dan">
         <h3>Dan Webb</h3>
-        <img src="images/speakers/dan_home.jpg" width="137" height="230" alt="Dan Webb" title="Dan Webb" />
+        <img src="/images/speakers/dan_home.jpg" width="137" height="230" alt="Dan Webb" title="Dan Webb" />
       </a>
     </li>
     <li class="speaker4">
       <a href="speakers#seb">
         <h3>Seb Lee-Delisle</h3>
-        <img src="images/speakers/seb_home.jpg" width="137" height="230" alt="Seb Lee-Delisle" title="Seb Lee-Delisle" />
+        <img src="/images/speakers/seb_home.jpg" width="137" height="230" alt="Seb Lee-Delisle" title="Seb Lee-Delisle" />
       </a>
     </li>
     <li class="speaker5">
       <a href="speakers#steve">
         <h3>Steve Faulkner</h3>
-        <img src="images/speakers/steve_home.jpg" width="137" height="230" alt="Steve Faulkner" title="Steve Faulkner, photo by Patrick H. Lauke" />
+        <img src="/images/speakers/steve_home.jpg" width="137" height="230" alt="Steve Faulkner" title="Steve Faulkner, photo by Patrick H. Lauke" />
       </a>
     </li>
     <li class="speaker6">
       <a href="speakers#jan">
         <h3>Jan Lehnardt</h3>
-        <img src="images/speakers/jan_home.jpg" width="137" height="230" alt="Jan Lehnardt" />
+        <img src="/images/speakers/jan_home.jpg" width="137" height="230" alt="Jan Lehnardt" />
       </a>
     </li>
     <li class="tba speaker7">
       <a href="#">
         <h3>TBA</h3>
-        <img src="images/speakers/7_home.jpg" width="137" height="230" alt="TBA" />
+        <img src="/images/speakers/7_home.jpg" width="137" height="230" alt="TBA" />
       </a>
     </li>
   </ul>

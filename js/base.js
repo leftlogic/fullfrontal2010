@@ -19,6 +19,6 @@ $('#schedule li').click(function () {
   $.data(this, { height: $el.height(), margin: $el.css('marginTop') });
 }).css({ marginTop: 0, height: 0, overflow: 'hidden'});
 
-setTimeout(function () {
+/mobile/i.test(navigator.userAgent) && setTimeout(function () {
   window.scrollTo(0, 1);
 }, 1000);

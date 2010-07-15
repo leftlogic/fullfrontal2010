@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" manifest="2010.manifest">
+<html lang="en">
 <head>
   <meta charset=utf-8 />
-  <title>Full Frontal - JavaScript Conference - 12th November 2010</title>
+  <title><?=$title?>Full Frontal - JavaScript Conference - 12th November 2010</title>
   <meta id="meta" name="viewport" content="width=device-width; initial-scale=1.0" />
-  <link rel="apple-touch-icon" href="images/ff2010.png" />  
+  <link rel="apple-touch-icon" href="/images/ff2010.png" />  
   <script>
   // enable elements for styling in IE
   /*@cc_on'abbr article aside audio canvas details figcaption figure footer header hgroup mark menu meter nav output progress section summary time video'.replace(/\w+/g,function(n){document.createElement(n)})@*/
   </script>
 
-  <link rel="stylesheet" href="css/reset.css" media="screen" charset="utf-8" />
-  <link rel="stylesheet" href="css/base.css" media="screen" charset="utf-8" />
+  <link rel="stylesheet" href="/css/reset.css" media="screen" charset="utf-8" />
+  <link rel="stylesheet" href="/css/base.css" media="screen" charset="utf-8" />
 
-  <!--[if IE 8]><link rel="stylesheet" href="css/ie8.css" type="text/css" media="screen" charset="utf-8" /><![endif]-->
-  <!--[if IE 7]><link rel="stylesheet" href="css/ie7.css" type="text/css" media="screen" charset="utf-8" /><![endif]-->
+  <!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css" type="text/css" media="screen" charset="utf-8" /><![endif]-->
+  <!--[if IE 7]><link rel="stylesheet" href="/css/ie7.css" type="text/css" media="screen" charset="utf-8" /><![endif]-->
 
 </head>
 <body class="<?=$file?> vevent<?=$crazyload ? ' crazyload' : ''?>">
@@ -39,9 +39,9 @@
   
     <ul>
       <li><a href="/">Home</a></li>
-      <li><a href="/speakers">Speakers</a></li>
-      <li><a href="/workshops">Workshops</a></li>
       <li><a href="/schedule">Schedule</a></li>
+      <li><a href="/workshops">Workshops</a></li>
+      <li><a href="/speakers">Speakers</a></li>
       <li><a href="/venue">Venue</a></li>
       <li><a href="/sponsors">Sponsors</a></li>
       <li class="dateTime"><span>12th November 2010, Brighton UK</span></li>

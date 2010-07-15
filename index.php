@@ -4,10 +4,12 @@ $file = preg_replace('/\.html/', '', $file);
 $file = preg_replace('/[^a-z]/', '', $file);
 
 $titles = array(
-    'speakers' => '',
-    'terms' => 'Terms and Conditions - ',
-    'privacy' => 'Privacy - ',
-    'travel' => 'Travel Details - '
+    'speakers' => 'Speakers',
+    'terms' => 'Terms and Conditions',
+    'venue' => 'Venue Details',
+    'schedule' => 'Schedule',
+    'workshops' => 'Workshops',
+    'sponsors' => 'Sponsorship'
 );
 
 $crazyload = false;
@@ -45,6 +47,8 @@ if ($file == 'ticketdraw' && $_SERVER['REQUEST_METHOD'] == 'HEAD') {
     header("HTTP/1.0 404 Not Found");
     $crazyload = true;
   }
+  
+  $title = isset($titles[$file]) ? $titles[$file] . ' - ' : '';
   
   include('includes/header.php');
   include('includes/' . $file . '.php');
