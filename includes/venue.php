@@ -60,8 +60,8 @@
  
   <section class="map">
  
-    <a href="http://maps.google.co.uk/?ie=UTF8&amp;ll=50.830608,-0.134497&amp;spn=0.009487,0.018239&amp;z=15&amp;source=embed"><img width="400" height="400" src="images/map_hotels.gif" /></a>
-    <p><a href="http://maps.google.co.uk/?ie=UTF8&amp;ll=50.830608,-0.134497&amp;spn=0.009487,0.018239&amp;z=15&amp;source=embed">View Larger Map</a></p>
+    <a href="http://maps.google.co.uk/maps/ms?ie=UTF8&amp;source=embed&amp;hl=en&amp;msa=0&amp;msid=108284409783075376607.000476ead657d44bbb21e&amp;z=16"><img width="400" height="400" src="images/map_hotels.gif" /></a>
+    <p><a href="http://maps.google.co.uk/maps/ms?ie=UTF8&amp;source=embed&amp;hl=en&amp;msa=0&amp;msid=108284409783075376607.000476ead657d44bbb21e&amp;z=16">View Larger Map</a></p>
  
   </section>
  
