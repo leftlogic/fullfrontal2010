@@ -21,9 +21,9 @@
     </li>
     <li class="box" id="seb">
       <h3><span><em>Seb Lee-Delisle</em></span> <a href="http://twitter.com/seb_ly">@seb_ly</a></h3>
-      <p>Seb has been working in digital media for over 15 years and is the founding partner at award winning digital agency <a href="http://pluginmedia.net">Plug-in Media</a>. He is a specialist in games, physics, motion detection, 3D and visual effects (such as particle systems). His work has pushed the boundaries of what is possible in Flash, and has received many accolades including a BAFTA for the Plug-in Media project Big and Small.</p>
+      <p>Seb has been working in digital media for over 15 years and is the founding partner at award winning digital agency Plug-in Media. He is a specialist in games, physics, motion detection, 3D and visual effects (such as particle systems). His work has pushed the boundaries of what is possible on the web, and has received many accolades including a BAFTA for the Plug-in Media project Big and Small.</p>
+      <p>As a member of the Papervision3D team, he is an expert in 3D. He is regularly invited to speak at conferences, and has presented at iDesign, FITC, FlashForward and many others.</p>
 
-      <p>As a member of the Papervision3D team, he is an expert in Flash 3D. He is regularly invited to speak at conferences, and has presented at iDesign, FITC, FlashForward and many others. In his spare time he manages FlashBrighton, a Flash platform user group.</p>
       <img src="images/speakers/seb_profile.jpg" width="137" height="140" alt="Seb Lee-Delisle" title="Seb Lee-Delisle" />
     </li>
     <li class="box" id="steve">

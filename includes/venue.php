@@ -60,8 +60,8 @@
  
   <section class="map">
  
-    <a href="http://maps.google.co.uk/maps/ms?ie=UTF8&amp;source=embed&amp;hl=en&amp;msa=0&amp;msid=108284409783075376607.000476ead657d44bbb21e&amp;z=16"><img width="400" height="400" src="images/map_hotels.gif" /></a>
-    <p><a href="http://maps.google.co.uk/maps/ms?ie=UTF8&amp;source=embed&amp;hl=en&amp;msa=0&amp;msid=108284409783075376607.000476ead657d44bbb21e&amp;z=16">View Larger Map</a></p>
+    <a href="http://maps.google.co.uk/maps/ms?ie=UTF8&amp;source=embed&amp;hl=en&amp;msa=0&amp;msid=108284409783075376607.00048a2c3bffd7b3a524c&amp;ll=50.827355,-0.142093&amp;spn=0.017322,0.034761&amp;z=15"><img width="400" height="400" src="images/map_hotels.gif" /></a>
+    <p><a href="http://maps.google.co.uk/maps/ms?ie=UTF8&amp;source=embed&amp;hl=en&amp;msa=0&amp;msid=108284409783075376607.00048a2c3bffd7b3a524c&amp;ll=50.827355,-0.142093&amp;spn=0.017322,0.034761&amp;z=15">View Larger Map</a></p>
  
   </section>
  
@@ -104,9 +104,9 @@
  
   <section class="map">
 
-    <a href="http://maps.google.co.uk/maps/ms?ie=UTF8&amp;hl=en&amp;oe=utf8&amp;msa=0&amp;msid=108284409783075376607.000476ead657d44bbb21e&amp;ll=50.835215,-0.136814&amp;spn=0.012196,0.017123&amp;z=15&amp;source=embed"><img height="400" width="400" src="images/map_food.gif"></a>
+    <a href="http://maps.google.co.uk/maps/ms?ie=UTF8&amp;source=embed&amp;hl=en&amp;msa=0&amp;msid=108284409783075376607.000476ead657d44bbb21e&amp;z=16"><img height="400" width="400" src="images/map_food.gif"></a>
     
-    <p><a href="http://maps.google.co.uk/maps/ms?ie=UTF8&amp;hl=en&amp;oe=utf8&amp;msa=0&amp;msid=108284409783075376607.000476ead657d44bbb21e&amp;ll=50.835215,-0.136814&amp;spn=0.012196,0.017123&amp;z=15&amp;source=embed">View Larger Map</a></p>
+    <p><a href="http://maps.google.co.uk/maps/ms?ie=UTF8&amp;source=embed&amp;hl=en&amp;msa=0&amp;msid=108284409783075376607.000476ead657d44bbb21e&amp;z=16">View Larger Map</a></p>
  
   </section>
  
