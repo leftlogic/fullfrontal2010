@@ -10,23 +10,21 @@
   /*@cc_on'abbr article aside audio canvas details figcaption figure footer header hgroup mark menu meter nav output progress section summary time video'.replace(/\w+/g,function(n){document.createElement(n)})@*/
   </script>
 
-  <link rel="stylesheet" href="/css/reset.css" media="screen" charset="utf-8" />
-  <link rel="stylesheet" href="/css/base.css" media="screen" charset="utf-8" />
+  <link rel="stylesheet" href="/css/reset.css" media="screen" />
+  <link rel="stylesheet" href="/css/base.css" media="screen" />
 
-  <!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css" type="text/css" media="screen" charset="utf-8" /><![endif]-->
-  <!--[if IE 7]><link rel="stylesheet" href="/css/ie7.css" type="text/css" media="screen" charset="utf-8" /><![endif]-->
+  <!--[if IE 8]><link rel="stylesheet" href="/css/ie8.css" type="text/css" media="screen" /><![endif]-->
+  <!--[if IE 7]><link rel="stylesheet" href="/css/ie7.css" type="text/css" media="screen" /><![endif]-->
 
 </head>
 <body class="<?=$file?> vevent<?=$crazyload ? ' crazyload' : ''?>">
   <header id="header">
   
     <div class="inner">
-      <hgroup>
-        <a class="home" href="/">
-          <h1>Full Frontal</h1>
-          <h2>JavaScript Conference</h2>
-        </a>
-      </hgroup>
+      <a class="home" href="/">
+        <h1>Full Frontal</h1>
+        <h2>JavaScript Conference</h2>
+      </a>
       <div id="tickets" class="soon">
         <!-- <a href="#"> -->
           <h3>Tickets available soon</h3> 

@@ -795,7 +795,7 @@ body.venue .details ul li p {
 /* SPONSORS ---------------------------------------------------------*/
 
 body.sponsors #sponsors h2 {
-  background: url(../images/sprite.png) 0 -1241px;
+  background: url(../images/sprite.png) 0 -1239px;
   height: 56px;
   margin: 50px 0;
 }
@@ -1234,7 +1234,7 @@ body.crazyload #speakers h2 {
   background: url(../images/404.png) no-repeat center;
 }
 
-hgroup h2 {
+a h2 {
   background: none !important; /* ffs :( */
 }
 
