@@ -2,7 +2,7 @@
 <article class="box" id="venueDetails">
   <section class="details">
     <h3><span>Duke of York's Picturehouse</span></h3>
-    <p class="location">Preston Circus, Brighton, BN1 4NA<br />+44 (0)870 755 1228</p>
+    <p class="location">Preston Circus, Brighton, BN1 4NA<br />+44 (0)871 902 5728</p>
     <p>Full Frontal JavaScript Conference is being held at the historic Duke of York’s Picturehouse in Brighton. It is centrally located on Preston Circus, less than 15 minutes walk from Brighton train station. Trains run regularly from Gatwick Airport, London Bridge and London Victoria stations.</p>
 
     <h4>By Car</h4>
@@ -34,24 +34,25 @@
         
     <ul>
       <li>
-        <h4><a href="#">Jury's Inn</a> <span class="price">&ndash; from £75 per night</span></h4>
+        <h4><a href="http://brightonhotels.jurysinns.com/">Jury's Inn</a> <span class="price">&ndash; from £70 per night (normally £88)</span></h4>
+        <p><a href="http://twitter.com/fullfrontalconf">Follow us</a> for a booking code</p>
         <p>101 Stroudley Road, Brighton, BN1 4DJ</p>
-        <a href="#"><img src="images/hotels/jurysinn.jpg" width="100" height="59" alt="Jury's Inn" title="Jury's Inn" /></a>
+        <a href="http://brightonhotels.jurysinns.com"><img src="/images/hotels/jurysinn.jpg" width="100" height="59" alt="Jury's Inn" title="Jury's Inn" /></a>
       </li>
       <li>
-        <h4><a href="#">Travelodge Brighton</a> <span class="price">&ndash; from £32 per night</span></h4>
+        <h4><a href="http://www.travelodge.co.uk/">Travelodge Brighton</a> <span class="price">&ndash; from £35.50 per night</span></h4>
         <p>165-167 Preston Road, Brighton, BN1 6AU</p>
-        <a href="#"><img src="images/hotels/travelodge.jpg" width="100" height="59" alt="Travelodge Brighton" title="Travelodge Brighton" /></a>
+        <a href="http://www.travelodge.co.uk/"><img src="/images/hotels/travelodge.jpg" width="100" height="59" alt="Travelodge Brighton" title="Travelodge Brighton" /></a>
       </li>
       <li>
-        <h4><a href="#">My Hotel Brighton</a> <span class="price">&ndash; from £99 per night</span></h4>
+        <h4><a href="http://www.myhotels.com/my-hotel-brighton/index.html">My Hotel Brighton</a> <span class="price">&ndash; from £104 per night</span></h4>
         <p>17 Jubilee Street, Brighton, BN1 1GE</p>
-        <a href="#"><img src="images/hotels/myhotel.jpg" width="100" height="59" alt="My Hotel Brighton" title="My Hotel Brighton" /></a>
+        <a href="http://www.myhotels.com/my-hotel-brighton/index.html"><img src="/images/hotels/myhotel.jpg" width="100" height="59" alt="My Hotel Brighton" title="My Hotel Brighton" /></a>
       </li>
       <li>
-        <h4><a href="#">Thistle Brighton</a> <span class="price">&ndash; from £89 per night</span></h4>
-        <p>Kings Road, Brighton, BN1 2GS</p>
-        <a href="#"><img src="images/hotels/thistle.jpg" width="100" height="59" alt="Thistle Brighton" title="Thistle Brighton" /></a>
+        <h4><a href="http://www.queenshotelbrighton.com/">Queens Hotel</a> <span class="price">&ndash; from £89 per night</span></h4>
+        <p>1-5 Kings Road, Brighton BN1 1NS</p>
+        <a href="http://www.queenshotelbrighton.com"><img src="images/hotels/queens.jpg" width="100" height="59" alt="Queens Hotel" title="Queens Hotel" /></a>
       </li>
     </ul>
  
@@ -95,7 +96,7 @@
       </li>
       <li>
         <h4>Mediterrane <span class="type">&ndash; Snack</span></h4>
-        <p>2a Stanley Road, Brighton (next to Duke of Yorks)</p>
+        <p>2a Stanley Road, Brighton (next to Duke of York's)</p>
       </li>
     </ul>
 
@@ -117,10 +118,11 @@
    
     <h3><span>After party</span></h3>
         
-    <p>Full Frontal JavaScript Conference is being held at the historic Duke of York’s Picturehouse in Brighton. It is centrally located on Preston Circus, less than 15 minutes walk from Brighton train station. Trains run regularly from Gatwick Airport, London Bridge and London Victoria stations.</p>
+    <p>We'll be announcing after party details soon - rest assure there <em>will</em> be beers to be drunk after a solid day of JavaScript awesomeness.</p>
 
   </section>
- 
+<?php
+/* 
   <section class="map">
 
     <a href="http://maps.google.co.uk/maps/ms?ie=UTF8&amp;hl=en&amp;oe=UTF8&amp;source=embed&amp;msa=0&amp;msid=108284409783075376607.00048a2cb7a1a44e6feb5"><img width="400" height="200" src="images/map_party.gif" /></a>
@@ -128,5 +130,5 @@
     <p><a href="http://maps.google.co.uk/maps/ms?ie=UTF8&amp;hl=en&amp;oe=UTF8&amp;source=embed&amp;msa=0&amp;msid=108284409783075376607.00048a2cb7a1a44e6feb5">View Larger Map</a></p>
  
   </section>
- 
+*/?>
 </article>

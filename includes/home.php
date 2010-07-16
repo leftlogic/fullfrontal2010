@@ -9,8 +9,8 @@
     </li>
     <li class="speaker2">
       <a href="speakers#brian">
-        <h3>Brian Leroux</h3>
-        <img src="/images/speakers/brian_home.jpg" width="137" height="230" alt="Brian Leroux" title="Brian Leroux" />
+        <h3>Brian LeRoux</h3>
+        <img src="/images/speakers/brian_home.jpg" width="137" height="230" alt="Brian LeRoux" title="Brian LeRoux" />
       </a>
     </li>
     <li class="speaker3">
@@ -48,7 +48,7 @@
 
 <section id="stayInTouch">
   <h2><span>Stay in touch</span></h2>
-  <p>Full Frontal 2010 is taking place in Brighton, UK at the Duke of Yorks cinema again.</p>
+  <p>Full Frontal 2010 is taking place in Brighton, UK at the Duke of York's cinema again.</p>
   <p>Make sure to follow us on Twitter to find out when tickets go on sale and the latest event information &ndash; including confirming speakers as they happen.</p>
   <ul id="socialIcons">
     <li class="twitterIcon">

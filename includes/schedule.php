@@ -59,9 +59,9 @@
     </li>
 
     <li class="box speaker">
-      <h3>PhoneGap: the Future of Mobile Now<span>Brian Leroux</span></h3>
+      <h3>PhoneGap: the Future of Mobile Now<span>Brian LeRoux</span></h3>
       <h4>16.10 &ndash; 16.55</h4>
-      <img src="/images/speakers/brian_schedule.jpg" width="48" height="48" alt="Brian Leroux" title="Brian Leroux" />
+      <img src="/images/speakers/brian_schedule.jpg" width="48" height="48" alt="Brian LeRoux" title="Brian LeRoux" />
       <div>
         <p>We know the future of the web is mobile, but what's the future of mobile? In this session, you'll learn how to step-up mobile app development with widgets and device APIs. Add these two technologies to your toolbox to begin building next-gen mobile apps today.</p>
 

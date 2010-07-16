@@ -9,10 +9,10 @@
       <img src="images/speakers/alex_profile.jpg" width="137" height="140" alt="Alex Russell" title="Alex Russell" />
     </li>
     <li class="box" id="brian">
-      <h3 id="brian2"><span><em>Brian Leroux</em></span> <a href="http://twitter.com/brianleroux">@brianleroux</a></h3>
+      <h3 id="brian2"><span><em>Brian LeRoux</em></span> <a href="http://twitter.com/brianLeRoux">@brianleroux</a></h3>
       <p>Co-creator of XUI and contributor to the open source PhoneGap project, Brian LeRoux believes that the future of the Internet is mobile and will rely on web standards, open source and developers like you. Brian is a software developer at Nitobi Software.</p>
 
-      <img src="images/speakers/brian_profile.jpg" width="137" height="140" alt="Brian Leroux" title="Brian Leroux" />
+      <img src="images/speakers/brian_profile.jpg" width="137" height="140" alt="Brian LeRoux" title="Brian LeRoux" />
     </li>
     <li class="box" id="dan">
       <h3><span><em>Dan Webb</em></span> <a href="http://twitter.com/danwrong">@danwrong</a></h3>

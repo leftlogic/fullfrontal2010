@@ -11,7 +11,7 @@
 
 <section>
     <h3>Privacy</h3>
-    <p>Your personal information will be protected and we will not share this with any other business.  The the only exception to this is where we are legally obliged to by court order or legal process served to this site.</p>
+    <p>Your personal information will be protected and we will not share this with any other business.  The only exception to this is where we are legally obliged to by court order or legal process served to this site.</p>
 </section>
 
 <section>

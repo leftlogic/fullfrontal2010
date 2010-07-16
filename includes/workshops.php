@@ -30,14 +30,14 @@
         <h4>Who is this workshop for?</h4>
         <p>You're not expected to have played with HTML5 just yet, but you will need to have a reasonable understanding of HTML &amp; JavaScript. A lot of the individual APIs are being used in popular web sites today both in desktop browsers and mobile, so rest assured that this applies to developers that are working on the web <em>today</em>.</p>     
         <h4>Prerequisites</h4>
-        <p>Delegates will need their own laptop and copies of the latest browsers - at the very lease <a href="http://www.apple.com/safari/">Safari 5</a> or <a href="http://www.google.com/chrome/">Chrome 5</a></p>
+        <p>Delegates will need their own laptop and copies of the latest browsers - at the very least <a href="http://www.apple.com/safari/">Safari 5</a> or <a href="http://www.google.com/chrome/">Chrome 5</a></p>
       </div>
     </li>
     <li id="phonegap" class="box">
       <h3>Mobile Application Developement with PhoneGap</h3>
       <div class="speaker">
-        <img src="images/speakers/brian_profile.jpg" width="140" height="138" alt="Brian Leroux" title="Brian Leroux" />
-        <p><strong>Presenter: </strong> <a href="/speakers#brian">Brian Leroux</a></p>
+        <img src="images/speakers/brian_profile.jpg" width="140" height="138" alt="Brian LeRoux" title="Brian LeRoux" />
+        <p><strong>Presenter: </strong> <a href="/speakers#brian">Brian LeRoux</a></p>
         <p><strong>Venue: </strong><a href="http://maps.google.com/maps?ie=UTF8&amp;q=Clarendon+Centre,+47+New+England+Street,+Brighton,+BN1+4GQ&amp;fb=1&amp;hq=Clarendon+Centre,&amp;hnear=47+New+England+St,+Brighton,+East+Sussex+BN1+4GQ,+UK&amp;cid=0,0,11375547332142987517&amp;ei=1CI_TPbTNo-SjAfh8uS2Bw&amp;ved=0CBYQnwIwAA&amp;z=16&amp;iwloc=A">Claridon Centre, 47 New England Street, Brighton, BN1 4GQ</a></p>
         <p><strong>Date: </strong> Thursday 11th November, 9:30am to 5:00pm</p>
         <p><strong>Price: </strong> £345+VAT (includes conference day pass)</p>
