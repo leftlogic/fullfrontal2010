@@ -1,6 +1,6 @@
 <h2><span>Workshops</span></h2>
 <article id="workshops"> 
-  <p>As a bonus to the JavaScript goodness that is Full Frontal, we're also running full day workshops the day before the big event for a limited number of places. The workshops are: <a href="#html5">HTML5 JavaScript APIs</a> and <a href="#phonegap">Mobile Application Developement with PhoneGap</a></p>
+  <p>As a bonus to the JavaScript goodness that is Full Frontal, we're also running full day workshops the day before the big event for a limited number of places. The workshops are: <a href="#html5">HTML5 JavaScript APIs</a> and <a href="#phonegap">Mobile Application Development with PhoneGap</a></p>
   <ul>
     <li id="html5" class="box">
       <h3>HTML5 JavaScript APIs</h3>
@@ -34,7 +34,7 @@
       </div>
     </li>
     <li id="phonegap" class="box">
-      <h3>Mobile Application Developement with PhoneGap</h3>
+      <h3>Mobile Application Development with PhoneGap</h3>
       <div class="speaker">
         <img src="images/speakers/brian_profile.jpg" width="140" height="138" alt="Brian LeRoux" title="Brian LeRoux" />
         <p><strong>Presenter: </strong> <a href="/speakers#brian">Brian LeRoux</a></p>
