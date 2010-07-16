@@ -7,7 +7,7 @@
       <div class="speaker">
         <img src="images/speakers/remy_profile.jpg" width="140" height="138" alt="Remy Sharp" title="Remy Sharp" />
         <p><strong>Presenter: </strong> <a href="/speakers#remy">Remy Sharp</a></p>
-        <p><strong>Venue: </strong><a href="http://maps.google.com/maps?ie=UTF8&amp;q=Clarendon+Centre,+47+New+England+Street,+Brighton,+BN1+4GQ&amp;fb=1&amp;hq=Clarendon+Centre,&amp;hnear=47+New+England+St,+Brighton,+East+Sussex+BN1+4GQ,+UK&amp;cid=0,0,11375547332142987517&amp;ei=1CI_TPbTNo-SjAfh8uS2Bw&amp;ved=0CBYQnwIwAA&amp;z=16&amp;iwloc=A">Claridon Centre, 47 New England Street, Brighton, BN1 4GQ</a></p>
+        <p><strong>Venue: </strong><a href="http://maps.google.com/maps?ie=UTF8&amp;q=Clarendon+Centre,+47+New+England+Street,+Brighton,+BN1+4GQ&amp;fb=1&amp;hq=Clarendon+Centre,&amp;hnear=47+New+England+St,+Brighton,+East+Sussex+BN1+4GQ,+UK&amp;cid=0,0,11375547332142987517&amp;ei=1CI_TPbTNo-SjAfh8uS2Bw&amp;ved=0CBYQnwIwAA&amp;z=16&amp;iwloc=A">Clarendon Centre, 47 New England Street, Brighton, BN1 4GQ</a></p>
         <p><strong>Date: </strong> Thursday 11th November, 9:30am to 5:00pm</p>
         <p><strong>Price: </strong> £345+VAT (includes conference day pass)</p>
         <p><span class="button"><a href="#">Tickets available soon</a></span></p>
@@ -38,7 +38,7 @@
       <div class="speaker">
         <img src="images/speakers/brian_profile.jpg" width="140" height="138" alt="Brian LeRoux" title="Brian LeRoux" />
         <p><strong>Presenter: </strong> <a href="/speakers#brian">Brian LeRoux</a></p>
-        <p><strong>Venue: </strong><a href="http://maps.google.com/maps?ie=UTF8&amp;q=Clarendon+Centre,+47+New+England+Street,+Brighton,+BN1+4GQ&amp;fb=1&amp;hq=Clarendon+Centre,&amp;hnear=47+New+England+St,+Brighton,+East+Sussex+BN1+4GQ,+UK&amp;cid=0,0,11375547332142987517&amp;ei=1CI_TPbTNo-SjAfh8uS2Bw&amp;ved=0CBYQnwIwAA&amp;z=16&amp;iwloc=A">Claridon Centre, 47 New England Street, Brighton, BN1 4GQ</a></p>
+        <p><strong>Venue: </strong><a href="http://maps.google.com/maps?ie=UTF8&amp;q=Clarendon+Centre,+47+New+England+Street,+Brighton,+BN1+4GQ&amp;fb=1&amp;hq=Clarendon+Centre,&amp;hnear=47+New+England+St,+Brighton,+East+Sussex+BN1+4GQ,+UK&amp;cid=0,0,11375547332142987517&amp;ei=1CI_TPbTNo-SjAfh8uS2Bw&amp;ved=0CBYQnwIwAA&amp;z=16&amp;iwloc=A">Clarendon Centre, 47 New England Street, Brighton, BN1 4GQ</a></p>
         <p><strong>Date: </strong> Thursday 11th November, 9:30am to 5:00pm</p>
         <p><strong>Price: </strong> £345+VAT (includes conference day pass)</p>
         <p><span class="button"><a href="#">Tickets available soon</a></span></p>
