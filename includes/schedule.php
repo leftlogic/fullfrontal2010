@@ -49,7 +49,7 @@
       <img src="/images/speakers/dan_schedule.jpg" width="48" height="48" alt="Dan Webb" title="Dan Webb" />
     </li>
     <li class="box speaker">
-      <h3>TBC: ARIA-slash-JavaScript-foo <span>Steve Faulkner</span></h3>
+      <h3>TBC: Accessible JavaScript <span>Steve Faulkner</span></h3>
       <h4>14.55 &ndash; 15.40</h4>
       <img src="/images/speakers/steve_schedule.jpg" width="48" height="48" alt="Steve Faulkner" title="Steve Faulkner" />
     </li>
