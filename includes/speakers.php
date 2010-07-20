@@ -26,11 +26,6 @@
 
       <img src="images/speakers/seb_profile.jpg" width="137" height="140" alt="Seb Lee-Delisle" title="Seb Lee-Delisle" />
     </li>
-    <li class="box" id="steve">
-      <h3><span><em>Steve Faulkner</em></span> <a href="http://twitter.com/stevefaulkner">@stevefaulkner</a></h3>
-      <p>Steve is the Senior Web Accessibility Consultant and Technical Director, TPG Europe. He leads the development of the Web Accessibility Toolbar, Color Contrast Analyser and AViewer accessibility testing tools. He is an active member of the W3C HTML Working Group and W3C Protocols and Formats Working Group, his work in these groups is focused on HTML5 canvas accessibility, use of WAI-ARIA in HTML5 and he is editor of the W3C Draft Specification HTML5: Techniques for providing useful text alternatives. Steve regularly publishes articles and research on accessibility issues on the TPG blog.</p>
-      <img src="images/speakers/steve_profile.jpg" width="137" height="140" alt="Steve Faulkner" title="Steve Faulkner" />
-    </li>
     <li class="box" id="jan">
       <h3><span><em>Jan Lehnardt</em></span> <a href="http://twitter.com/janl">@janl</a></h3>
       <p>Jan is a contributor to Apache CouchDB and co-organizer of <a href="http://www.jsconf.eu/" title="JSConf.eu - 2010">JSConf.eu</a>, the <em>other</em> great JavaScript conference.</p>

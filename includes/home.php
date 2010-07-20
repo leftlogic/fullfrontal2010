@@ -26,15 +26,15 @@
       </a>
     </li>
     <li class="speaker5">
-      <a href="speakers#steve">
-        <h3>Steve Faulkner</h3>
-        <img src="/images/speakers/steve_home.jpg" width="137" height="230" alt="Steve Faulkner" title="Steve Faulkner, photo by Patrick H. Lauke" />
-      </a>
-    </li>
-    <li class="speaker6">
       <a href="speakers#jan">
         <h3>Jan Lehnardt</h3>
         <img src="/images/speakers/jan_home.jpg" width="137" height="230" alt="Jan Lehnardt" />
+      </a>
+    </li>
+    <li class="tba speaker6">
+      <a href="#">
+        <h3>TBA</h3>
+        <img src="/images/speakers/6_home.jpg" width="137" height="230" alt="TBA" />
       </a>
     </li>
     <li class="tba speaker7">

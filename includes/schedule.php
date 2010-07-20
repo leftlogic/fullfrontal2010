@@ -47,11 +47,14 @@
       <h3>Building @Anywhere: A Client-side Interface to Twitter <span>Dan Webb</span></h3>
       <h4>14.10 &ndash; 14.55</h4>
       <img src="/images/speakers/dan_schedule.jpg" width="48" height="48" alt="Dan Webb" title="Dan Webb" />
+      <div>
+        <p>@anywhere is a JavaScript library that allows you to access Twitter's API directly from the browser.  In this talk we'll dive in to the highs and lows of the cross-domain communication and client-side authentication techniques that underlie it. You'll can gain an insight into just what it takes to create a client side API to your web application as well as some crazy browser black magic that might just be incredibly useful one day.</p>
+      </div>
     </li>
     <li class="box speaker">
-      <h3>TBC: Accessible JavaScript <span>Steve Faulkner</span></h3>
+      <h3>TBA: <span>TBA</span></h3>
       <h4>14.55 &ndash; 15.40</h4>
-      <img src="/images/speakers/steve_schedule.jpg" width="48" height="48" alt="Steve Faulkner" title="Steve Faulkner" />
+      <img src="/images/speakers/tba_schedule.jpg" width="48" height="48" alt="TBA" title="TBA" />
     </li>
     <li class="box coffee break">
       <h3>Coffee Break</h3>
