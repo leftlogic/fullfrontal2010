@@ -37,6 +37,7 @@
         <li class="sponsor3"><a href="http://pusherapp.com/"><span>Pusher</span></a></li>
         <li class="sponsor4"><a href="http://dharmafly.com/work-with-us"><span>Dhamafly</span></a></li>
         <li class="sponsor7"><a href="http://netmag.co.uk/"><span>.net</span></a></li>
+        <li class="sponsor6"><a href="http://www.avtgroup.com/"><span>AVT</span></a></li>
       </ul>
     
       <p>Full Frontal is a one day JavaScript conference organised by Left Logic &ndash; <a href="/terms">Terms &amp; Conditions</a></p>
@@ -67,6 +68,5 @@
 /*
 <li class="sponsor2"><a href="http://www.guardian.co.uk/open-platform"><span>Open Platform</span></a></li>
 <li class="sponsor5"><a href="http://opera.com/"><span>Opera</span></a></li>
-<li class="sponsor6"><a href="http://www.avtgroup.com/"><span>AVT</span></a></li>
 */
 ?>

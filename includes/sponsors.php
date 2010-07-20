@@ -14,7 +14,11 @@
   <ul>
     <li class="sponsor3 active"><a href="http://pusherapp.com/"><span>Pusher</span></a></li>
     <li class="sponsor4 active"><a href="http://dharmafly.com/work-with-us"><span>Dhamafly</span></a></li>
+  </ul>
+  <h4>Media Partners</h4>
+  <ul>
     <li class="sponsor7 active"><a href="http://netmag.co.uk/"><span>.net</span></a></li>
+    <li class="sponsor6 active"><a href="http://www.avt-inc.com/"><span>AVT</span></a></li>
   </ul>
 
 </article>
