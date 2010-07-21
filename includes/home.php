@@ -31,10 +31,10 @@
         <img src="/images/speakers/jan_home.jpg" width="137" height="230" alt="Jan Lehnardt" />
       </a>
     </li>
-    <li class="tba speaker6">
-      <a href="#">
-        <h3>TBA</h3>
-        <img src="/images/speakers/6_home.jpg" width="137" height="230" alt="TBA" />
+    <li class="speaker6">
+      <a href="speakers#paul">
+        <h3>Paul Bakaus</h3>
+        <img src="/images/speakers/paul_home.jpg" width="137" height="230" alt="Paul Bakaus" />
       </a>
     </li>
     <li class="tba speaker7">

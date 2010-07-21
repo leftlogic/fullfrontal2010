@@ -14,9 +14,13 @@
     </li>
 
     <li class="box speaker">
-      <h3>TBC: Why we'll stop using so much JavaScript in the near future <span>Alex Russell</span></h3>
+      <h3>Less and More: How HTML5 Will Change The Framework Landscape <span>Alex Russell</span></h3>
       <h4>09.55 &ndash; 10.40</h4>
       <img src="/images/speakers/alex_schedule.jpg" width="48" height="48" alt="Alex Russell" title="Alex Russell" />
+      <div>
+        <p>HTML5, CSS3, and whatever come with and after them are going to once again change the way we build web sites and apps, and in ways that are just a profound as the transition to Ajax for dynamic interactions. </p>
+        <p>This talk discusses what we'll be using JavaScript less (and more) for in the years to come and how mobile, the Chrome Web Store, and Google Chrome Frame will accelerate the transition</p>
+      </div>
     </li>
 
     <li class="box coffee break">
@@ -52,9 +56,15 @@
       </div>
     </li>
     <li class="box speaker">
-      <h3>TBA: <span>TBA</span></h3>
+      <h3>Building a game engine for the web <span>Paul Bakaus</span></h3>
       <h4>14.55 &ndash; 15.40</h4>
-      <img src="/images/speakers/tba_schedule.jpg" width="48" height="48" alt="TBA" title="TBA" />
+      <img src="/images/speakers/paul_schedule.jpg" width="48" height="48" alt="Paul Bakaus" title="Paul Bakaus" />
+      <div>
+        <p>There's a multitude of professional game engines out there for consoles, PC and mobile handhelds. However, there's one big empty gap even in 2010: Not a single game engine targets desktop and mobile browsers natively without the use of plugins.</p>
+
+        <p>In this session, you will learn about the challenges of building pure browser based gaming engine, how web programming concepts like event-driven architecture need to be considered and what it means to fully utilize the open web stack – HTML5, client- and serverside JavaScript, External Stylesheets and of course, Canvas to squeeze every millisecond of rendering time. We'll take apart modules of our own upcoming Aves Engine for isometric real-time games and give you a very solid idea what needs to be done to build graphically rich, real-time, full featured games for the web.</p>
+        
+      </div>
     </li>
     <li class="box coffee break">
       <h3>Coffee Break</h3>

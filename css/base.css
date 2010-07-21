@@ -522,7 +522,7 @@ body.speakers #speakers ul li h3 span em {
 }
 
 body.speakers #speakers ul li#brian h3 span {
-  width: 180px;
+  width: 190px;
   background-position: 0 -210px;
 }
 
@@ -541,8 +541,8 @@ body.speakers #speakers ul li#alex h3 span {
   background-position: 0 -306px;
 }
 
-body.speakers #speakers ul li#steve h3 span {
-  width: 210px;
+body.speakers #speakers ul li#paul h3 span {
+  width: 180px;
   background-position: 0 -336px;
 }
 
@@ -552,7 +552,7 @@ body.speakers #speakers ul li#jan h3 span {
 }
 
 body.speakers #speakers ul li#remy h3 span {
-  width: 190px;
+  width: 170px;
   background-position: 0 -403px;  
 }
 

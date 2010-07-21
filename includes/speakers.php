@@ -5,7 +5,7 @@
   <ul>
     <li class="box" id="alex">
       <h3><span><em>Alex Russell</em></span> <a href="http://alex.dojotoolkit.org/" title="Wot?! No twitter?">blog</a></h3>
-      <p>Alex Russell served as Project Lead for the Dojo Toolkit from 2004 to 2008 and is Director of R&amp;D at SitePen, a consultancy focused on the development of web applications, exceptional user experience, and pushing the limits of the web. Currently, he serves as President of the Dojo Foundation, an organization that supports development of several high-quality, open source, JavaScript projects and distributes them under liberal terms. Prior to joining SitePen, Russell was a senior engineer at JotSpot and Informatica where he helped both companies build highly interactive, web interfaces. His earlier, open source involvement included stints as editor of the OWASP Guide to Building Secure Web Applications and primary author of the netWindows DHTML toolkit.</p>
+      <p>Alex Russell is a software engineer at Google. Prior to joining Google he contributed to the development of the Dojo Toolkit. He's fighting IE 6 so you don't have to.</p>
       <img src="images/speakers/alex_profile.jpg" width="137" height="140" alt="Alex Russell" title="Alex Russell" />
     </li>
     <li class="box" id="brian">
@@ -31,6 +31,14 @@
       <p>Jan is a contributor to Apache CouchDB and co-organizer of <a href="http://www.jsconf.eu/" title="JSConf.eu - 2010">JSConf.eu</a>, the <em>other</em> great JavaScript conference.</p>
       <img src="images/speakers/jan_profile.jpg" width="137" height="140" alt="Jan Lehnardt" title="Jan Lehnardt" />
     </li>
+    
+    <li class="box" id="paul">
+      <h3><span><em>Paul Bakaus</em></span> <a href="http://twitter.com/pbakaus">@pbakaus</a></h3>
+      <p>Paul is the CTO of the browser game startup Dextrose AG, as well as a jQuery team member and his corporate work mostly focusses on UX, UI and tricky JavaScript challenges. He is well known in the JavaScript community for having created the popular user interface framework jQuery UI, where he was the driving force behind many of its plugins. </p>
+      <p>In 2010, he finally decided it‘s time for a long envisioned challenge – delivering the first commercial game engine for the web, running pluginless in web browsers. In addition to his main work, he enjoys his well booked speaking engagements at various conferences around the world. His favorite topics cover innovative user interfaces and experiences, JavaScript wisdom and of course, jQuery.</p>      
+      <img src="images/speakers/paul_profile.jpg" width="137" height="140" alt="Paul Bakaus" title="Paul Bakaus" />
+    </li>
+    
     <li class="box" id="remy">
       <h3><span><em>Remy Sharp</em></span> <a href="http://twitter.com/rem">@rem</a></h3>
       <p>Remy Sharp is a developer, speaker, blogger, one of the authors behind <a href="http://www.amazon.co.uk/Introducing-HTML5-Voices-That-Matter/dp/0321687299">Introduction to HTML5</a> (New Riders). He is one of the curators of <a href="http://html5doctor.com">HTML5 Doctor</a>, and he's also one of the two organisers behind this conference: Full Frontal JavaScript Conference.</p>
