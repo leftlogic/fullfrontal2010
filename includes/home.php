@@ -37,10 +37,10 @@
         <img src="/images/speakers/paul_home.jpg" width="137" height="230" alt="Paul Bakaus" />
       </a>
     </li>
-    <li class="tba speaker7">
-      <a href="#">
-        <h3>TBA</h3>
-        <img src="/images/speakers/7_home.jpg" width="137" height="230" alt="TBA" />
+    <li class="speaker7">
+      <a href="speakers#paulr">
+        <h3>Paul Rouget</h3>
+        <img src="/images/speakers/paulr_home.jpg" width="137" height="230" alt="Paul Rouget" />
       </a>
     </li>
   </ul>

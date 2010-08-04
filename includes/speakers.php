@@ -39,6 +39,12 @@
       <img src="images/speakers/paul_profile.jpg" width="137" height="140" alt="Paul Bakaus" title="Paul Bakaus" />
     </li>
     
+    <li class="box" id="paulr">
+      <h3><span><em>Paul Rouget</em></span> <a href="http://twitter.com/paulrouget">@paulrouget</a></h3>
+      <p>Paul Rouget works on promoting the OpenWeb and Mozilla as a platform. He has been involved in the Mozilla project since 2003. He works for Mozilla as a Technology Evangelist. Paul experiments with the new technologies of the Web and the Mozilla platform. Lately, he has been working on set of demos demonstrating how far we can go with the new standards and Firefox 3.5, and promoting the new video tag on Firefox.</p>
+      <img src="images/speakers/paulr_profile.jpg" width="137" height="140" alt="Paul Bakaus" title="Paul Rouget" />
+    </li>
+
     <li class="box" id="remy">
       <h3><span><em>Remy Sharp</em></span> <a href="http://twitter.com/rem">@rem</a></h3>
       <p>Remy Sharp is a developer, speaker, blogger, one of the authors behind <a href="http://www.amazon.co.uk/Introducing-HTML5-Voices-That-Matter/dp/0321687299">Introduction to HTML5</a> (New Riders). He is one of the curators of <a href="http://html5doctor.com">HTML5 Doctor</a>, and he's also one of the two organisers behind this conference: Full Frontal JavaScript Conference.</p>

@@ -38,9 +38,9 @@
       </div>
     </li>
     <li class="box speaker">
-      <h3>TBA <span>TBA</span></h3>
+      <h3>TBC: Batshit crazy stuff you'll be able to do in browsers <span>Paul Rouget</span></h3>
       <h4>11.55 &ndash; 12.40</h4>
-      <img src="/images/speakers/tba_schedule.jpg" width="48" height="48" alt="TBA" title="TBA" />
+      <img src="/images/speakers/paulr_schedule.jpg" width="48" height="48" alt="Paul Rouget" title="Paul Rouget" />
     </li>
     <li class="box lunchtime break">
       <h3>Lunchtime</h3>

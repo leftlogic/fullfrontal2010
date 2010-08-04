@@ -543,8 +543,13 @@ body.speakers #speakers ul li#alex h3 span {
 }
 
 body.speakers #speakers ul li#paul h3 span {
-  width: 10px;
+  width: 180px;
   background-position: 0 -336px;
+}
+
+body.speakers #speakers ul li#paulr h3 span {
+  width: 180px;
+  background-position: 0 -1597px;
 }
 
 body.speakers #speakers ul li#jan h3 span {
