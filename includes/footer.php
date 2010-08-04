@@ -34,6 +34,7 @@
     
       <ul>
         <li class="sponsor1"><a href="http://developer.yahoo.com/"><span>Yahoo</span></a></li>
+        <li class="sponsor5"><a href="http://uxebu.com/"><span>uxebu</span></a></li>
         <li class="sponsor3"><a href="http://pusherapp.com/"><span>Pusher</span></a></li>
         <li class="sponsor4"><a href="http://dharmafly.com/work-with-us"><span>Dhamafly</span></a></li>
         <li class="sponsor7"><a href="http://netmag.co.uk/"><span>.net</span></a></li>

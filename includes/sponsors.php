@@ -9,6 +9,7 @@
   <h4>Half Monties</h4>
   <ul>
     <li class="sponsor1 active"><a href="http://developer.yahoo.com/"><span>Yahoo</span></a></li>
+    <li class="sponsor5 active"><a href="http://uxebu.com/"><span>uxebu</span></a></li>
   </ul>
   <h4>Small Monties</h4>
   <ul>
