@@ -1375,22 +1375,24 @@ a h2 {
   .home #whatTheySaid, 
   .home #whereAndWhen,
   .home #stayInTouch,
-  .schedlink,
   h2,
   #photos,
   .list ol li.party span,
   .map,
-  body.sponsors footer .inner ul {
+  body.sponsors footer .inner ul,
+  nav ul li:nth-child(4),
+  nav ul li:nth-child(2) {
     display: none;
   }
   
   .workshops .speaker img {
     width: 60px;
     height: 60px;
-    margin-right: 0;
+    margin-right: 20px;
+    margin-bottom: 10px;
   }
   
-  .list ol li.break {
+  .tickets .list ol li.break {
     background: #fff;
   }
   
@@ -1399,7 +1401,7 @@ a h2 {
   }
   
   .workshops .speaker p {
-    margin-left: 70px;
+    margin-left: 0px;
   }
   
   body.venue #venueDetails h3,
@@ -1450,8 +1452,16 @@ a h2 {
     
   .inner, nav ul {
     width: auto;
+  }
+
+  #holder .inner, nav ul {
     margin: auto 10px;
   }
+  
+  ul {
+    margin-left: 0;
+  }
+
   
   nav ul li a,
   nav ul li a:link,
@@ -1486,7 +1496,7 @@ a h2 {
   }
     
   header {
-    padding: 10px 5px;
+    padding: 10px 0px;
   }
   
   header a.home {
@@ -1527,7 +1537,7 @@ a h2 {
   }
     
   body.home #schedule {
-    margin: 0 10px;
+/*    margin: 0 10px;*/
     display: block;
   }
 

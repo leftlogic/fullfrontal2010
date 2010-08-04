@@ -37,7 +37,7 @@
   
     <ul>
       <li><a href="/">Home</a></li>
-      <li class="schedlink"><a href="/schedule">Schedule</a></li>
+      <li><a href="/schedule">Schedule</a></li>
       <li><a href="/workshops">Workshops</a></li>
       <li><a href="/speakers">Speakers</a></li>
       <li><a href="/venue">Venue</a></li>
