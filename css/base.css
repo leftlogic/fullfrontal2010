@@ -1374,35 +1374,126 @@ a h2 {
   .home #speakers, 
   .home #whatTheySaid, 
   .home #whereAndWhen,
-  .home #stayInTouch {
+  .home #stayInTouch,
+  .schedlink,
+  h2,
+  #photos,
+  .list ol li.party span,
+  .map,
+  body.sponsors footer .inner ul {
     display: none;
   }
   
-  .inner, nav ul {
+  .workshops .speaker img {
+    width: 60px;
+    height: 60px;
+    margin-right: 0;
+  }
+  
+  .list ol li.break {
+    background: #fff;
+  }
+  
+  .tickets .list ol li h3 {
+    margin-left: 0;
+  }
+  
+  .workshops .speaker p {
+    margin-left: 70px;
+  }
+  
+  body.venue #venueDetails h3,
+  body.venue #venueFood h3,
+  body.venue #venueHotels h3,
+  body.venue #afterParty h3 {
+    background: none;
+  }
+  
+  body.venue #venueDetails h3 span,
+  body.venue #venueFood h3 span,
+  body.venue #venueHotels h3 span,
+  body.venue #afterParty h3 span {
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  body.speakers #speakers ul li {
+    padding: 10px;
+  }
+  
+  body.speakers #speakers ul li img {
+    width: 60px;
+    height: 60px;
+    left: 10px;
+    top: 10px;
+  }
+  
+  body.speakers #speakers ul li h3,
+  body.speakers #speakers ul li p {
+    margin-left: 70px;
+  }
+  
+  body.venue .details {
+    float: none;
     width: auto;
   }
   
-  nav {
-    display: none;
+  body {
+    font-size: 14px;
+    line-height: 18px;
   }
   
-  h2 { display: none; }
-
+  header a.home {
+    float: none;
+  }
+    
+  .inner, nav ul {
+    width: auto;
+    margin: auto 10px;
+  }
+  
+  nav ul li a,
+  nav ul li a:link,
+  nav ul li a:active,
+  nav ul li a:visited {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  
+  nav ul li.dateTime span {
+    display: none;
+    font-size: 14px;
+    color: #2a3f42;
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body.home nav ul li.dateTime span {
+    display: block;
+  }
+  
+  body.home nav {
+    margin-bottom: 35px;
+  }
+  
+  nav {
+    margin-bottom: 10px;
+    border-top: 0;
+  }
+    
   header {
     padding: 10px 5px;
-    margin-bottom: 10px;
   }
   
-  #photos {
-    display: none;
-  }
-
   header a.home {
     float: none;
   }
 
   header #tickets {
-/*    float: none;*/
     margin-top: 0;
   }
   
@@ -1434,14 +1525,19 @@ a h2 {
   .list ol li div p:last-child {
     padding-bottom: 10px;
   }
-  
-  .list ol li.party span {
-    display: none;
-  }
-  
+    
   body.home #schedule {
     margin: 0 10px;
     display: block;
+  }
+
+  body.sponsors #sponsors ul {
+    margin: 0;
+  } 
+   
+  /* not my idea to have ridiculous specificity */
+  body.sponsors #sponsors ul li {
+    width: 150px;
   }
   
   .list ol li.registration {
@@ -1463,6 +1559,11 @@ a h2 {
   footer p {
     float: none;
     padding: 10px;
+  }
+  
+  footer {
+    margin-top: 10px;
+    clear: left;
   }
   
 }
