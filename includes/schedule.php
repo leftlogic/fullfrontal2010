@@ -1,4 +1,4 @@
-<article id="schedule">
+<article id="schedule" class="list">
 
   <h2><span>The Schedule</span></h2>
  
@@ -56,14 +56,12 @@
       </div>
     </li>
     <li class="box speaker">
-      <h3>Building a game engine for the web <span>Paul Bakaus</span></h3>
+      <h3>High performance browser games <span>Paul Bakaus</span></h3>
       <h4>14.55 &ndash; 15.40</h4>
       <img src="/images/speakers/paul_schedule.jpg" width="48" height="48" alt="Paul Bakaus" title="Paul Bakaus" />
       <div>
-        <p>There's a multitude of professional game engines out there for consoles, PC and mobile handhelds. However, there's one big empty gap even in 2010: Not a single game engine targets desktop and mobile browsers natively without the use of plugins.</p>
-
-        <p>In this session, you will learn about the challenges of building pure browser based gaming engine, how web programming concepts like event-driven architecture need to be considered and what it means to fully utilize the open web stack – HTML5, client- and serverside JavaScript, External Stylesheets and of course, Canvas to squeeze every millisecond of rendering time. We'll take apart modules of our own upcoming Aves Engine for isometric real-time games and give you a very solid idea what needs to be done to build graphically rich, real-time, full featured games for the web.</p>
-        
+        <p>Graphically intensive and fast paced browser games written in pluginless JavaScript largely do not exist yet, for a very specific reason – performance issues.</p>
+        <p>Only recently, browser engines started to give us enough quirks and hacks to power full motion graphics, animation and real time interaction. With unprecedented depth, you'll learn why Canvas isn't the obvious choice, why you should write JavaScript in front- and backend, why HTML5 really is just a buzzword and how to leverage CSS hardware accelerated to create true platform independent games. Dive in to the world of JavaScript gaming!</p>
       </div>
     </li>
     <li class="box coffee break">
@@ -82,7 +80,7 @@
 
         <p>Two web technologies are ushering in the next generation of mobile apps: widgets and device APIs. As self-contained web apps, widgets significantly improve user experience. Device APIs do more than extend web apps to mobile devices. They allow access to native device sensors, like the accelerometer and camera, and to data such as photos and contacts. By adding widgets and device APIs to your toolbox, you can start building sophisticated mobile apps now.</p>
 
-        <p>In this session, PhoneGap hacker Brian LeRoux will guide you through the step-by-step creation of a W3C widget. He'll show you how to combine it with device APIs and deploy it using the PhoneGap open source framework. Don't miss this session to learn how to develop for the mobile web of the future, today</p>
+        <p>In this session, PhoneGap hacker Brian LeRoux will guide you through the step-by-step creation of a W3C widget. He'll show you how to combine it with device APIs and deploy it using the PhoneGap open source framework. Learn how to develop for the mobile web of the future, today.</p>
       </div>
     </li>
     <li class="box speaker">

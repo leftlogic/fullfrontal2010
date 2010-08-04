@@ -35,7 +35,7 @@
     <ul>
       <li>
         <h4><a href="http://brightonhotels.jurysinns.com/">Jury's Inn</a> <span class="price">&ndash; from £70 per night (normally £88)</span></h4>
-        <p><a href="http://twitter.com/fullfrontalconf">Follow us</a> for a booking code</p>
+        <p>Discount code: <strong>LEFT121110</strong><br /><small>(needs to be booked over the phone)</small></p>
         <p>101 Stroudley Road, Brighton, BN1 4DJ</p>
         <a href="http://brightonhotels.jurysinns.com"><img src="/images/hotels/jurysinn.jpg" width="100" height="59" alt="Jury's Inn" title="Jury's Inn" /></a>
       </li>

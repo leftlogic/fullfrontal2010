@@ -83,6 +83,7 @@ ul {
 }
 
 .box {
+  display: block;
   padding: 20px;
   margin-top: 20px;
   background: #c8f1ed;
@@ -542,7 +543,7 @@ body.speakers #speakers ul li#alex h3 span {
 }
 
 body.speakers #speakers ul li#paul h3 span {
-  width: 180px;
+  width: 10px;
   background-position: 0 -336px;
 }
 
@@ -554,6 +555,14 @@ body.speakers #speakers ul li#jan h3 span {
 body.speakers #speakers ul li#remy h3 span {
   width: 170px;
   background-position: 0 -403px;  
+}
+
+/* TICKETS ---------------------------------------------------------*/
+
+.tickets #tickets h2 {
+  background: url(../images/sprite.png) 0 -1544px;
+  height: 54px;
+  margin: 50px 0;
 }
 
 /* SCHEDULE ---------------------------------------------------------*/
@@ -568,28 +577,50 @@ body.speakers #speakers ul li#remy h3 span {
   display: none;
 }
 
-.schedule ol {
+.list ol {
   margin: 0;
 }
 
-.schedule ol li {
-  position: relative;
+.list ol li {
   overflow: hidden;
-  list-style: none;
-  padding: 15px;
+  list-style: none;  
   margin: 0 0 20px 0;
+  padding: 15px;
+  position: relative;
   background: #FFF;
   border-color: #FFF;
 }
 
-.schedule ol li.speaker,
-.schedule ol li.remark {
+.list ol li.link {
+  padding: 0;
+}
+
+.list ol li > a {
+  text-decoration: none;
+  overflow: hidden;
+  display: block;
+  background: transparent;
+  border-color: #FFF;
+  margin-top: 0;
+  padding: 15px;
+}
+
+.list ol li.link:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 1px 10px rgba(0,0,0,.75);
+  -moz-box-shadow: 0 1px 10px rgba(0,0,0,.75);
+  -o-box-shadow: 0 1px 10px rgba(0,0,0,.75);
+  box-shadow: 0 1px 10px rgba(0,0,0,.75);  
+}
+
+.list ol li.speaker,
+.list ol li.remark {
   background: #c8f1ed;
   border: 1px solid transparent;
   border-top-color: #e4f8f6;
 }
 
-.schedule ol li.speaker:hover {
+.list ol li.speaker:hover {
   cursor: pointer;
   -webkit-box-shadow: 0 1px 10px rgba(0,0,0,.75);
   -moz-box-shadow: 0 1px 10px rgba(0,0,0,.75);
@@ -597,13 +628,13 @@ body.speakers #speakers ul li#remy h3 span {
   box-shadow: 0 1px 10px rgba(0,0,0,.75);
 }
 
-.schedule ol li img {
+.list ol li img {
   position: absolute;
   left: 6px;
   top: 6px;
 }
 
-.schedule ol li h3 {
+.list ol li h3 {
   float: left;
   margin: 0 0 0 60px;
   line-height: 28px;
@@ -612,42 +643,42 @@ body.speakers #speakers ul li#remy h3 span {
   font-style: italic;
 }
 
-.schedule ol li h3 span {
+.list ol li h3 span {
   font-size: 16px;
   font-style: normal;
   color: #478A85;
   margin-left: 10px;
 }
 
-.schedule ol li h4 {
+.list ol li h4 {
   float: right;
   margin: 0;
   line-height: 28px;
 }
 
-.schedule ol li div {
+.list ol li div {
   clear: left;
   margin: 60px 0 0 60px;
 }
 
-.schedule ol li.break {
+.list ol li.break {
   cursor: default;
   background: #fff url(../images/sprite.png) 0 0;
 }
 
-.schedule ol li.registration {
+.list ol li.registration {
   background-position: 6px -910px;
 }
 
-.schedule ol li.coffee {
+.list ol li.coffee {
   background-position: 6px -1012px;
 }
 
-.schedule ol li.lunchtime {
+.list ol li.lunchtime {
   background-position: 6px -863px;
 }
 
-.schedule ol li.party {
+.list ol li.party {
   background-position: 6px -958px;
 }
 
@@ -1374,32 +1405,32 @@ a h2 {
     background-position: 100% -90px;
   }
   
-  .schedule ol li {
+  .list ol li {
     margin-bottom: 10px;
     padding: 5px;
     padding-right: 10px;
     min-height: 30px;
   }
   
-  .schedule ol li h3 {
+  .list ol li h3 {
     font-size: 18px;
   }
   
-  .schedule ol li h3 span {
+  .list ol li h3 span {
     display: block;
     margin-left: 0;
     font-size: 14px;
   }
   
-  .schedule ol li div {
+  .list ol li div {
     clear: both;
   }
   
-  .schedule ol li div p:last-child {
+  .list ol li div p:last-child {
     padding-bottom: 10px;
   }
   
-  .schedule ol li.party span {
+  .list ol li.party span {
     display: none;
   }
   
@@ -1408,19 +1439,19 @@ a h2 {
     display: block;
   }
   
-  .schedule ol li.registration {
+  .list ol li.registration {
     background-position: 6px -920px;
   }
 
-  .schedule ol li.coffee {
+  .list ol li.coffee {
     background-position: 6px -1022px;
   }
 
-  .schedule ol li.lunchtime {
+  .list ol li.lunchtime {
     background-position: 6px -873px;
   }
 
-  .schedule ol li.party {
+  .list ol li.party {
     background-position: 6px -968px;
   }
 

@@ -25,10 +25,10 @@
         <h1>Full Frontal</h1>
         <h2>JavaScript Conference</h2>
       </a>
-      <div id="tickets" class="soon">
-        <!-- <a href="#"> -->
-          <h3>Tickets available soon</h3> 
-        <!-- </a> -->
+      <div id="tickets" class="earlybird">
+        <a href="/tickets#dayconf">
+          <h3>Limited early bird tickets @ £100+VAT</h3> 
+        </a>
       </div>
     </div>
   </header>
