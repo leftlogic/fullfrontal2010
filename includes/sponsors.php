@@ -15,6 +15,7 @@
   <ul>
     <li class="sponsor3 active"><a href="http://pusherapp.com/"><span>Pusher</span></a></li>
     <li class="sponsor4 active"><a href="http://dharmafly.com/"><span>Dhamafly</span></a></li>
+    <li class="sponsor2 active"><a href="http://www.guardian.co.uk/open-platform"><span>Guardian Open Platform</span></a></li>
   </ul>
   <h4>Media Partners</h4>
   <ul>
