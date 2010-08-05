@@ -14,7 +14,7 @@
   <h4>Small Monties</h4>
   <ul>
     <li class="sponsor3 active"><a href="http://pusherapp.com/"><span>Pusher</span></a></li>
-    <li class="sponsor4 active"><a href="http://dharmafly.com/work-with-us"><span>Dhamafly</span></a></li>
+    <li class="sponsor4 active"><a href="http://dharmafly.com/"><span>Dhamafly</span></a></li>
   </ul>
   <h4>Media Partners</h4>
   <ul>
