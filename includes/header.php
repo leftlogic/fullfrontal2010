@@ -25,9 +25,9 @@
         <h1>Full Frontal</h1>
         <h2>JavaScript Conference</h2>
       </a>
-      <div id="tickets" class="earlybird">
+      <div id="tickets" class="standard">
         <a href="/tickets#dayconf">
-          <h3>Limited early bird tickets @ £100+VAT</h3> 
+          <h3>Tickets available @ £129+VAT</h3> 
         </a>
       </div>
     </div>
