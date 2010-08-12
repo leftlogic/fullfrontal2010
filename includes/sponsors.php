@@ -6,6 +6,19 @@
   <p>Find out how your company can sponsor Full Frontal by reviewing our <a href="sponsorship.html">sponsorship packages</a> and <a href="mailto:events@leftlogic.com">get in touch</a> with us to discuss how we can work together.</p>
 
   <h3>Full Frontal is proudly sponsored by:</h3>
+  <h4>Full Monties</h4>
+  <ul>
+    <li class="sponsor8 active withtext"><a href="http://mozilla.org/"><span>Mozilla</span></a>
+    <p>  Mozilla is an international non-profit organization and a global community
+      dedicated to improving the Internet experience for people everywhere. They
+      create free, open source products and technologies through highly
+      disciplined, transparent and cooperative process. Everything they create is
+      a public asset available for others to use, adapt and improve. The result is
+      great products built by passionate people – and better choices for
+      everyone.  For more information, visit <a href="www.mozilla.com">www.mozilla.com</a>.
+    </p>
+    </li>
+  </ul>
   <h4>Half Monties</h4>
   <ul>
     <li class="sponsor1 active"><a href="http://developer.yahoo.com/"><span>Yahoo</span></a></li>

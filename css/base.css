@@ -861,7 +861,7 @@ body.sponsors #sponsors ul li {
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
 }
 
-body.sponsors #sponsors ul li a {
+body.sponsors #sponsors ul li > a {
   display: inline-block;
   width: 137px;
   height: 100px;
@@ -1188,61 +1188,84 @@ footer .leftLogic span {
   padding-top: 0;
 }
 
-.sponsor1 a {
+.sponsor1 > a {
   background-position: 0 -483px;
 }
-.sponsor1.active a,
-.sponsor1 a:hover,
-.sponsor1 a:focus {
+.sponsor1.active > a,
+.sponsor1 > a:hover,
+.sponsor1 > a:focus {
   background-position: 0 -583px;
 }
-.sponsor2 a {
+.sponsor2 > a {
   background-position: -137px -483px;
 }
-.sponsor2.active a,
-.sponsor2 a:hover,
-.sponsor2 a:focus {
+.sponsor2.active > a,
+.sponsor2 > a:hover,
+.sponsor2 > a:focus {
   background-position: -137px -583px;
 }
-.sponsor3 a {
+.sponsor3 > a {
   background-position: -274px -483px;
 }
-.sponsor3.active a,
-.sponsor3 a:hover,
-.sponsor3 a:focus {
+.sponsor3.active > a,
+.sponsor3 > a:hover,
+.sponsor3 > a:focus {
   background-position: -274px -583px;
 }
-.sponsor4 a {
+.sponsor4 > a {
   background-position: -411px -483px;
 }
-.sponsor4.active a,
-.sponsor4 a:hover,
-.sponsor4 a:focus {
+.sponsor4.active > a,
+.sponsor4 > a:hover,
+.sponsor4 > a:focus {
   background-position: -411px -583px;
 }
 .sponsor5 a {
   background-position: -548px -483px;
 }
-.sponsor5.active a,
-.sponsor5 a:hover,
-.sponsor5 a:focus {
+.sponsor5.active > a,
+.sponsor5 > a:hover,
+.sponsor5 > a:focus {
   background-position: -548px -583px;
 }
-.sponsor6 a {
+.sponsor6 > a {
   background-position: -685px -483px;
 }
-.sponsor6.active a,
-.sponsor6 a:hover,
-.sponsor6 a:focus {
+.sponsor6.active > a,
+.sponsor6 > a:hover,
+.sponsor6 > a:focus {
   background-position: -685px -583px;
 }
-.sponsor7 a {
+.sponsor7 > a {
   background-position: -822px -483px;
 }
-.sponsor7.active a,
-.sponsor7 a:hover,
-.sponsor7 a:focus {
+.sponsor7.active > a,
+.sponsor7 > a:hover,
+.sponsor7 > a:focus {
   background-position: -822px -583px;
+}
+.sponsor8 > a {
+  background-position: -549px -382px;
+}
+.sponsor8.active > a,
+.sponsor8 > a:hover,
+.sponsor8 > a:focus {
+  background-position: -411px -382px;
+}
+
+body.sponsors #sponsors ul li.withtext {
+  width: auto;
+}
+
+body.sponsors #sponsors ul li.withtext > a { 
+  float: left;
+  margin: 20px;
+}
+
+body.sponsors #sponsors ul li.withtext p { 
+  margin-left: 140px;
+  text-align: left;
+  margin: 20px;
 }
 
 footer .inner {
