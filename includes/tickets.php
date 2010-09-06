@@ -3,7 +3,7 @@
   <ol>
     <li id="dayconf" class="box registration break link">
       <a class="box" href="http://leftlogic.stagehq.com/events/167/booking/new">
-        <h3>Full Frontal day ticket (limited early bird sold out)</h3>
+        <h3>Full Frontal day ticket</h3>
         <h4>£129+VAT</h4>
       </a>
     </li>
