@@ -36,10 +36,10 @@
         <li class="sponsor8"><a href="http://mozilla.org/"><span>Mozilla</span></a></li>
         <li class="sponsor1"><a href="http://developer.yahoo.com/"><span>Yahoo</span></a></li>
         <li class="sponsor5"><a href="http://uxebu.com/"><span>uxebu</span></a></li>
+        <li class="sponsor9"><a href="http://www.webapplications.co.uk/"><span>Web Applications UK</span></a></li>
         <li class="sponsor3"><a href="http://pusherapp.com/"><span>Pusher</span></a></li>
         <li class="sponsor4"><a href="http://dharmafly.com/"><span>Dhamafly</span></a></li>
         <li class="sponsor2"><a href="http://www.guardian.co.uk/open-platform/"><span>Guardian Open Platform</span></a></li>
-        <li class="sponsor7"><a href="http://netmag.co.uk/"><span>.net</span></a></li>
       </ul>
     
       <p>Full Frontal is a one day JavaScript conference organised by Left Logic &ndash; <a href="/terms">Terms &amp; Conditions</a></p>
