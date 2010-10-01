@@ -23,7 +23,7 @@
   <ul>
     <li class="sponsor1 active"><a href="http://developer.yahoo.com/"><span>Yahoo</span></a></li>
     <li class="sponsor5 active"><a href="http://uxebu.com/"><span>uxebu</span></a></li>
-    <li class="sponsor9 active"><a href="http://www.webapplications.co.uk/"><span>Web Applications UK</span></a></li>
+    <li class="sponsor9 active"><a href="http://www.webapplicationsuk.com/"><span>Web Applications UK</span></a></li>
   </ul>
   <h4>Small Monties</h4>
   <ul>
