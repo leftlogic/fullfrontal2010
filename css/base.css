@@ -1260,6 +1260,15 @@ footer .leftLogic span {
 .sponsor9 > a:focus {
   background-position: -683px -382px;
 }
+.sponsor10 > a {
+  background-position: -821px -286px;
+}
+.sponsor10.active > a,
+.sponsor10 > a:hover,
+.sponsor10 > a:focus {
+  background-position: -683px -286px;
+}
+
 
 
 body.sponsors #sponsors ul li.withtext {

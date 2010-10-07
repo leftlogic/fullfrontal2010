@@ -35,6 +35,7 @@
   <ul>
     <li class="sponsor7 active"><a href="http://netmag.co.uk/"><span>.net</span></a></li>
     <li class="sponsor6 active"><a href="http://www.avt-inc.com/"><span>AVT</span></a></li>
+    <li class="sponsor10 active"><a href="http://www.newriders.com"><span>New Riders</span></a></li>
   </ul>
 
 </article>
