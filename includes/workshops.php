@@ -10,7 +10,7 @@
         <p><strong>Venue: </strong><a href="http://maps.google.com/maps?ie=UTF8&amp;q=Clarendon+Centre,+47+New+England+Street,+Brighton,+BN1+4GQ&amp;fb=1&amp;hq=Clarendon+Centre,&amp;hnear=47+New+England+St,+Brighton,+East+Sussex+BN1+4GQ,+UK&amp;cid=0,0,11375547332142987517&amp;ei=1CI_TPbTNo-SjAfh8uS2Bw&amp;ved=0CBYQnwIwAA&amp;z=16&amp;iwloc=A">Clarendon Centre, 47 New England Street, Brighton, BN1 4GQ</a></p>
         <p><strong>Date: </strong> Thursday 11th November, 9:30am to 5:00pm</p>
         <p><strong>Price: </strong> £345+VAT (includes conference day pass)</p>
-        <p><span class="button"><a href="/tickets#html5">Buy your ticket now</a></span></p>
+        <p><span class="button"><a>All sold out!</a></span></p>
       </div>
       <div>
         <h4>Workshop Details</h4>
