@@ -24,7 +24,7 @@
   
   <div class="box">
   <h3>Waiting list</h3>
-  <p>If you ticket type isn't available, <a href="mailto:events@leftlogic.com?subject=Waiting%20list">please email us</a> with your name and ticket type, and we'll add you to the waiting list and email you if the ticket becomes available.  This will be on a first come first serve basis.</p>
+  <p>If your ticket type isn't available, <a href="mailto:events@leftlogic.com?subject=Waiting%20list">please email us</a> with your name and the ticket you wanted, and we'll add you to the waiting list and email you if the ticket becomes available.  This will be on a first come first serve basis.</p>
   </div>
   
 </article>
