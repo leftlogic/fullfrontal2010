@@ -15,7 +15,7 @@
       disciplined, transparent and cooperative process. Everything they create is
       a public asset available for others to use, adapt and improve. The result is
       great products built by passionate people – and better choices for
-      everyone.  For more information, visit <a href="www.mozilla.com">www.mozilla.com</a>.
+      everyone.  For more information, visit <a href="http://www.mozilla.com">www.mozilla.com</a>.
     </p>
     </li>
   </ul>
