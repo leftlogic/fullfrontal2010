@@ -2,37 +2,6 @@
 <article id="workshops"> 
   <p>As a bonus to the JavaScript goodness that is Full Frontal, we're also running full day workshops the day before the big event for a limited number of places. The workshops are: <a href="#html5">HTML5 JavaScript APIs</a> and <a href="#phonegap">Mobile Application Development with PhoneGap</a></p>
   <ul>
-    <li id="html5" class="box">
-      <h3>HTML5 JavaScript APIs</h3>
-      <div class="speaker">
-        <img src="images/speakers/remy_profile.jpg" width="140" height="138" alt="Remy Sharp" title="Remy Sharp" />
-        <p><strong>Presenter: </strong> <a href="/speakers#remy">Remy Sharp</a></p>
-        <p><strong>Venue: </strong><a href="http://maps.google.com/maps?ie=UTF8&amp;q=Clarendon+Centre,+47+New+England+Street,+Brighton,+BN1+4GQ&amp;fb=1&amp;hq=Clarendon+Centre,&amp;hnear=47+New+England+St,+Brighton,+East+Sussex+BN1+4GQ,+UK&amp;cid=0,0,11375547332142987517&amp;ei=1CI_TPbTNo-SjAfh8uS2Bw&amp;ved=0CBYQnwIwAA&amp;z=16&amp;iwloc=A">Clarendon Centre, 47 New England Street, Brighton, BN1 4GQ</a></p>
-        <p><strong>Date: </strong> Thursday 11th November, 9:30am to 5:00pm</p>
-        <p><strong>Price: </strong> £345+VAT (includes conference day pass)</p>
-        <p><span class="button"><a>All sold out!</a></span></p>
-      </div>
-      <div>
-        <h4>Workshop Details</h4>
-        <p>HTML5 has gained a lot of attention over the last 12 months. With browsers increasingly supporting the features of the vast JavaScript APIs both in and around the official HTML5 spec, it's making the job of creating awesome applications purely using these web technologies very easy indeed.</p>
-        <p>This full day workshop will introduce you to HTML5 with a brief backstory, before diving into the APIs one by one. As well as going through code and showing practical demonstrations, where possible, we'll also talk about the alternatives for old browsers that don't support "awesome" out of the box.</p>
-
-        <h4>What will be covered?</h4>
-        <ul>
-          <li>Video &amp; audio – move over Flash</li>
-          <li>Canvas – bring on the Mario games</li>
-          <li>Storage – like cookies, but tastes so much better</li>
-          <li>Offline – forget the web</li>
-          <li>Geolocation – finders keepers</li>
-          <li>Web Workers – multithreading for the browser</li>
-          <li>Web Sockets – pushing data was never so easy</li>
-        </ul>
-        <h4>Who is this workshop for?</h4>
-        <p>You're not expected to have played with HTML5 just yet, but you will need to have a reasonable understanding of HTML &amp; JavaScript. A lot of the individual APIs are being used in popular web sites today both in desktop browsers and mobile, so rest assured that this applies to developers that are working on the web <em>today</em>.</p>     
-        <h4>Prerequisites</h4>
-        <p>Delegates will need their own laptop and copies of the latest browsers - at the very least <a href="http://www.apple.com/safari/">Safari 5</a> or <a href="http://www.google.com/chrome/">Chrome 5</a></p>
-      </div>
-    </li>
     <li id="phonegap" class="box">
       <h3>Mobile Application Development with PhoneGap</h3>
       <div class="speaker">
@@ -79,6 +48,37 @@
         <li><em>Symbian</em>: You can develop PhoneGap apps for Symbian without any external software, using Nokia's Web Runtime (WRT). However, <a href="http://www.forum.nokia.com/Tools_Docs_and_Code/Tools/Runtimes/Web_Runtime/Aptana_Plugin/QuickStart.xhtml" target="_blank">Aptana Studio and the Nokia WRT plug-in</a> are recommended to ease development. Further information is available in <a href="http://phonegap.pbworks.com/Getting-Started-with-Phonegap-Nokia-WRT" target="_blank">our Symbian tutorial</a>.</li>
         <li><em>Palm</em>: <a href="http://developer.palm.com/index.php?option=com_content&amp;view=article&amp;id=1545">VirtualBox and the webOS SDK.</a></li>
         </ul>
+      </div>
+    </li>
+    <li id="html5" class="box">
+      <h3>HTML5 JavaScript APIs</h3>
+      <div class="speaker">
+        <img src="images/speakers/remy_profile.jpg" width="140" height="138" alt="Remy Sharp" title="Remy Sharp" />
+        <p><strong>Presenter: </strong> <a href="/speakers#remy">Remy Sharp</a></p>
+        <p><strong>Venue: </strong><a href="http://maps.google.com/maps?ie=UTF8&amp;q=Clarendon+Centre,+47+New+England+Street,+Brighton,+BN1+4GQ&amp;fb=1&amp;hq=Clarendon+Centre,&amp;hnear=47+New+England+St,+Brighton,+East+Sussex+BN1+4GQ,+UK&amp;cid=0,0,11375547332142987517&amp;ei=1CI_TPbTNo-SjAfh8uS2Bw&amp;ved=0CBYQnwIwAA&amp;z=16&amp;iwloc=A">Clarendon Centre, 47 New England Street, Brighton, BN1 4GQ</a></p>
+        <p><strong>Date: </strong> Thursday 11th November, 9:30am to 5:00pm</p>
+        <p><strong>Price: </strong> £345+VAT (includes conference day pass)</p>
+        <p><span class="button"><a>All sold out!</a></span></p>
+      </div>
+      <div>
+        <h4>Workshop Details</h4>
+        <p>HTML5 has gained a lot of attention over the last 12 months. With browsers increasingly supporting the features of the vast JavaScript APIs both in and around the official HTML5 spec, it's making the job of creating awesome applications purely using these web technologies very easy indeed.</p>
+        <p>This full day workshop will introduce you to HTML5 with a brief backstory, before diving into the APIs one by one. As well as going through code and showing practical demonstrations, where possible, we'll also talk about the alternatives for old browsers that don't support "awesome" out of the box.</p>
+
+        <h4>What will be covered?</h4>
+        <ul>
+          <li>Video &amp; audio – move over Flash</li>
+          <li>Canvas – bring on the Mario games</li>
+          <li>Storage – like cookies, but tastes so much better</li>
+          <li>Offline – forget the web</li>
+          <li>Geolocation – finders keepers</li>
+          <li>Web Workers – multithreading for the browser</li>
+          <li>Web Sockets – pushing data was never so easy</li>
+        </ul>
+        <h4>Who is this workshop for?</h4>
+        <p>You're not expected to have played with HTML5 just yet, but you will need to have a reasonable understanding of HTML &amp; JavaScript. A lot of the individual APIs are being used in popular web sites today both in desktop browsers and mobile, so rest assured that this applies to developers that are working on the web <em>today</em>.</p>     
+        <h4>Prerequisites</h4>
+        <p>Delegates will need their own laptop and copies of the latest browsers - at the very least <a href="http://www.apple.com/safari/">Safari 5</a> or <a href="http://www.google.com/chrome/">Chrome 5</a></p>
       </div>
     </li>
   </ul>
