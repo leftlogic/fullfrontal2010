@@ -52,11 +52,11 @@
     </li>
     
     <li class="box speaker">
-      <h3>Building @Anywhere: A Client-side Interface to Twitter <span>Dan Webb</span></h3>
+      <h3>Bringing the Same-Origin policy to its knees <span>Dan Webb</span></h3>
       <h4>14.10 &ndash; 14.55</h4>
       <img src="/images/speakers/dan_schedule.jpg" width="48" height="48" alt="Dan Webb" title="Dan Webb" />
       <div>
-        <p>@anywhere is a JavaScript library that allows you to access Twitter's API directly from the browser.  In this talk we'll dive in to the highs and lows of the cross-domain communication and client-side authentication techniques that underlie it. You'll can gain an insight into just what it takes to create a client side API to your web application as well as some crazy browser black magic that might just be incredibly useful one day.</p>
+        <p>More and more web applications are seeing the opportunities that can arise from exposing their features on third party websites.  We've already seen a lot of read-only 'badges' that allow third parties sites to display information from your application but now companies like Facebook, Twitter and Linkedin are allowing users of 3rd party sites to actually use their applications without leaving the site. We'll dig in to what it takes to responsibly and effectively embed your application's functionality in other sites, looking at the arcane technology that powers the Like, Share and Tweet buttons going all the way through to implementing full JavaScript APIs to your application in the style of @anywhere, Facebook Connect and Linkedin's JSAPI.</p>
       </div>
     </li>
     <li class="box speaker">
