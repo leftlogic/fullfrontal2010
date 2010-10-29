@@ -118,11 +118,9 @@
    
     <h3><span>After party</span></h3>
         
-    <p>We'll be announcing after party details soon - rest assure there <em>will</em> be beers to be drunk after a solid day of JavaScript awesomeness.</p>
+    <p>Please join us at the After Party at Oh So Social from 6.30pm-1am - where Mozilla, our Full Monty sponsor has bought you a pint!</p>
 
   </section>
-<?php
-/* 
   <section class="map">
 
     <a href="http://maps.google.co.uk/maps/ms?ie=UTF8&amp;hl=en&amp;oe=UTF8&amp;source=embed&amp;msa=0&amp;msid=108284409783075376607.00048a2cb7a1a44e6feb5"><img width="400" height="200" src="/images/map_party.gif" /></a>
@@ -130,5 +128,4 @@
     <p><a href="http://maps.google.co.uk/maps/ms?ie=UTF8&amp;hl=en&amp;oe=UTF8&amp;source=embed&amp;msa=0&amp;msid=108284409783075376607.00048a2cb7a1a44e6feb5">View Larger Map</a></p>
  
   </section>
-*/?>
 </article>
