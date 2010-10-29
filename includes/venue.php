@@ -18,7 +18,7 @@
  
   <section class="map">
  
-    <a href="http://maps.google.co.uk/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=108284409783075376607.0004787e4b36591a5feb2&amp;ll=50.831855,-0.139604&amp;spn=0.012197,0.017123&amp;z=15&amp;source=embed"><img width="400" height="400" src="images/map_tovenue.gif" /></a>
+    <a href="http://maps.google.co.uk/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=108284409783075376607.0004787e4b36591a5feb2&amp;ll=50.831855,-0.139604&amp;spn=0.012197,0.017123&amp;z=15&amp;source=embed"><img width="400" height="400" src="/images/map_tovenue.gif" /></a>
     
     <p><a href="http://maps.google.co.uk/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=108284409783075376607.0004787e4b36591a5feb2&amp;ll=50.831855,-0.139604&amp;spn=0.012197,0.017123&amp;z=15&amp;source=embed">View Larger Map</a></p>
  
@@ -52,7 +52,7 @@
       <li>
         <h4><a href="http://www.queenshotelbrighton.com/">Queens Hotel</a> <span class="price">&ndash; from £89 per night</span></h4>
         <p>1-5 Kings Road, Brighton BN1 1NS</p>
-        <a href="http://www.queenshotelbrighton.com"><img src="images/hotels/queens.jpg" width="100" height="59" alt="Queens Hotel" title="Queens Hotel" /></a>
+        <a href="http://www.queenshotelbrighton.com"><img src="/images/hotels/queens.jpg" width="100" height="59" alt="Queens Hotel" title="Queens Hotel" /></a>
       </li>
     </ul>
  
@@ -60,7 +60,7 @@
  
   <section class="map">
  
-    <a href="http://maps.google.co.uk/maps/ms?ie=UTF8&amp;source=embed&amp;hl=en&amp;msa=0&amp;msid=108284409783075376607.00048a2c3bffd7b3a524c&amp;ll=50.827355,-0.142093&amp;spn=0.017322,0.034761&amp;z=15"><img width="400" height="400" src="images/map_hotels.gif" /></a>
+    <a href="http://maps.google.co.uk/maps/ms?ie=UTF8&amp;source=embed&amp;hl=en&amp;msa=0&amp;msid=108284409783075376607.00048a2c3bffd7b3a524c&amp;ll=50.827355,-0.142093&amp;spn=0.017322,0.034761&amp;z=15"><img width="400" height="400" src="/images/map_hotels.gif" /></a>
     <p><a href="http://maps.google.co.uk/maps/ms?ie=UTF8&amp;source=embed&amp;hl=en&amp;msa=0&amp;msid=108284409783075376607.00048a2c3bffd7b3a524c&amp;ll=50.827355,-0.142093&amp;spn=0.017322,0.034761&amp;z=15">View Larger Map</a></p>
  
   </section>
@@ -77,22 +77,22 @@
       <li>
         <h4>Circus Circus <span class="type">&ndash; Pub</span></h4>
         <p>101 Stroudley Road, Brighton, BN1 4DJ</p>
-        <img src="images/food/circuscircus.jpg" width="100" height="59" alt="Circus Circus" title="Circus Circus" />
+        <img src="/images/food/circuscircus.jpg" width="100" height="59" alt="Circus Circus" title="Circus Circus" />
       </li>
       <li>
         <h4>The Open House <span class="type">&ndash; Pub</span></h4>
         <p>165-167 Preston Road, Brighton, BN1 6AU</p>
-        <img src="images/food/openhouse.jpg" width="100" height="59" alt="The Open House" title="The Open House" />
+        <img src="/images/food/openhouse.jpg" width="100" height="59" alt="The Open House" title="The Open House" />
       </li>
       <li>
         <h4>Bardsley's <span class="type">&ndash; Fish &amp; Chips</span></h4>
         <p>17 Jubilee Street, Brighton, BN1 1GE</p>
-        <img src="images/food/bardsleys.jpg" width="100" height="59" alt="Bardsley's" title="Bardsley's" />
+        <img src="/images/food/bardsleys.jpg" width="100" height="59" alt="Bardsley's" title="Bardsley's" />
       </li>
       <li>
         <h4>Mitre Tavern <span class="type">&ndash; Pub</span></h4>
         <p>Kings Road, Brighton, BN1 2GS</p>
-        <img src="images/food/mitretavern.jpg" width="100" height="59" alt="Mitre Tavern" title="Mitre Tavern" />
+        <img src="/images/food/mitretavern.jpg" width="100" height="59" alt="Mitre Tavern" title="Mitre Tavern" />
       </li>
       <li>
         <h4>Mediterrane <span class="type">&ndash; Snack</span></h4>
@@ -104,7 +104,7 @@
  
   <section class="map">
 
-    <a href="http://maps.google.co.uk/maps/ms?ie=UTF8&amp;source=embed&amp;hl=en&amp;msa=0&amp;msid=108284409783075376607.000476ead657d44bbb21e&amp;z=16"><img height="400" width="400" src="images/map_food.gif"></a>
+    <a href="http://maps.google.co.uk/maps/ms?ie=UTF8&amp;source=embed&amp;hl=en&amp;msa=0&amp;msid=108284409783075376607.000476ead657d44bbb21e&amp;z=16"><img height="400" width="400" src="/images/map_food.gif"></a>
     
     <p><a href="http://maps.google.co.uk/maps/ms?ie=UTF8&amp;source=embed&amp;hl=en&amp;msa=0&amp;msid=108284409783075376607.000476ead657d44bbb21e&amp;z=16">View Larger Map</a></p>
  
@@ -125,7 +125,7 @@
 /* 
   <section class="map">
 
-    <a href="http://maps.google.co.uk/maps/ms?ie=UTF8&amp;hl=en&amp;oe=UTF8&amp;source=embed&amp;msa=0&amp;msid=108284409783075376607.00048a2cb7a1a44e6feb5"><img width="400" height="200" src="images/map_party.gif" /></a>
+    <a href="http://maps.google.co.uk/maps/ms?ie=UTF8&amp;hl=en&amp;oe=UTF8&amp;source=embed&amp;msa=0&amp;msid=108284409783075376607.00048a2cb7a1a44e6feb5"><img width="400" height="200" src="/images/map_party.gif" /></a>
     
     <p><a href="http://maps.google.co.uk/maps/ms?ie=UTF8&amp;hl=en&amp;oe=UTF8&amp;source=embed&amp;msa=0&amp;msid=108284409783075376607.00048a2cb7a1a44e6feb5">View Larger Map</a></p>
  
