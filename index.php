@@ -39,9 +39,11 @@ if ($file == 'ticketdraw' && $_SERVER['REQUEST_METHOD'] == 'HEAD') {
     } 
     mysql_close($db);
     
-
+} else if ($file == 'ohso') {
+  header("Location: http://goo.gl/XF0K");
+} else if ($file == 'fflunch') {
+  header("Location: http://goo.gl/MmGn");
 } else {
-  
   if (!file_exists('includes/' . $file . '.php')) {
     $file = 'home';
     header("HTTP/1.0 404 Not Found");
