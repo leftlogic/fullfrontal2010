@@ -56,22 +56,22 @@
       time: function (date) {
         var hour = date.getHours(),
             min = date.getMinutes() + "",
-            ampm = 'AM';
+            ampm = 'am';
     
         if (hour == 0) {
           hour = 12;
         } else if (hour == 12) {
-          ampm = 'PM';
+          ampm = 'pm';
         } else if (hour > 12) {
           hour -= 12;
-          ampm = 'PM';
+          ampm = 'pm';
         }
     
         if (min.length == 1) {
           min = '0' + min;
         }
     
-        return hour + ':' + min + ' ' + ampm;
+        return hour + ':' + min + ampm;
       },
       date: function (date) {
         var ds = date.toDateString().split(/ /),
@@ -96,6 +96,11 @@
         }
 
         return mon + ' ' + day + th + (thisyear != year ? ', ' + year : '');
+      },
+      timestamp: function (time_value) {
+        var values = time_value.split(" "),
+            date = +new Date(Date.parse(values[1] + " " + values[2] + ", " + values[5] + " " + values[3]));
+        return date;
       },
       datetime: function (time_value) {
         var values = time_value.split(" "),
@@ -390,6 +395,8 @@
       callback: options.callback,
       page: options.page || 1
     };
+    
+    options.type = method;
     
     if (caching) {
       var last_request = JSON.parse(sessionStorage.getItem(twitterlib + '.last_request') || '{}');

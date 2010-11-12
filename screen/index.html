@@ -347,6 +347,43 @@ img.pic {
   margin-top: 85%;
 }
 
+#winnerWrapper {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  display: none;
+}
+
+.winner #winnerWrapper {
+  display: block;
+}
+
+#winner {
+  /* vertical align magic via flexible layouts */
+  display : box;
+  box-orient: vertical;
+  box-pack: center;
+  display : -moz-box;
+  -moz-box-orient: vertical;
+  -moz-box-pack: center;
+  display : -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: center;
+  
+  height: 75%;
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 0 0 5px #DFDFDF, 0 0 10px #DCDCDC, 0 0 20px #A9A9A8;
+  text-align: center;
+  font-size: 100px;
+}
+
 </style> 
 </head> 
 <body> 
@@ -394,6 +431,9 @@ img.pic {
   <li id="logo"><div class="tweet"><div class="vcard"><img style="height: 48px; width: 48px;" class="photo fn" height="48" src="http://a0.twimg.com/profile_images/769997260/ff2010.png" width="48" /></div><div class="hentry">Following tweets from <a href="http://search.twitter.com/search?q=%40fullfrontalconf+OR+%23fullfrontalconf+OR+%23fullfrontal2010+OR+full-frontal.org+OR+%23fullfrontal10">search</a> and <a href="http://twitter.com/fullfrontalconf/delegates10">@fullfrontalconf/delegates10</a></div></div></li> 
 </ul> 
 </section> 
+<div id="winnerWrapper">
+  <div id="winner">Remy Sharp</div>  
+</div>
 <script src="twitterlib.js"></script> 
 <script src="jquery.js"></script> 
 <script> 
@@ -485,7 +525,7 @@ var SCHEDULE = {
   '3:40 PM' : '<p>Next: 3:40pm</p><h3>Break</h3><p>Back in 30 minutes</p>',
   '4:10 PM' : '<img src="/images/speakers/brian_profile.jpg" /><p>Next: 4:10pm</p><h2>Brian LeRoux<br /><a href="http://twitter.com/brianleroux">@brianleroux</a></h2><h3>PhoneGap: the Future of Mobile Now</h3>',
   '4:55 PM' : '<img src="/images/speakers/seb_profile.jpg" /><p>Next: 4:55pm</p><h2>Seb Lee-Delise<br /><a href="http://twitter.com/seb_ly">@seb_ly</a></h2><h3>Pixel <del>Pushing</del> Pounding </h3>',
-  '7:00 PM' : '<h2>Party: 6:30pm - 1am</h2>'
+  '7:00 PM' : '<h2>Party 6:30pm - 1am</h2>'
 };
  
 function parseTime(t) {
@@ -576,7 +616,7 @@ function renderTweet(data) {
   return html;
 }
  
-function passToQueue(data) {
+function passToQueue(data, options) {
   if (data.length) {
     twitterQueue.push(data.reverse());
   }
@@ -593,7 +633,7 @@ var run = function () {
 };
  
 // start a new queue and on the callback, render the tweet and animate it down
-var twitterQueue = new Queue(5000, function (item) {
+var twitterQueue = new Queue(3000, function (item) {
   // 1. stuff a new p tag, and animate it up - to force content down (with text:visibility:hidden)
   // 2. drop effect from top of page
   // 3. once effect complete, remove animated el, and show text to fake effect  
@@ -611,6 +651,19 @@ var twitterQueue = new Queue(5000, function (item) {
   $('#tweets p:below(' + window.innerHeight + ')').remove();
 }).empty(run);
  
+var winners = new WebSocket('ws://node.remysharp.com:8003');
+winners.onmessage = function (event) {
+  var winner = document.querySelector('#winner');
+  if (event.data == 'close') {
+    document.body.className = document.body.className.replace(/winner/g, '');
+    winner.innerHTML = '';
+  } else {
+    document.body.className += ' winner';
+    winner.innerHTML = event.data;
+  }
+};
+
+
 twitterlib.ify.link = function (t) {
   return t.replace(/[a-z]+:\/\/[a-z0-9-_]+\.[a-z0-9-_:~\+#%&\?\/.=]+[^:\.,\)\s*$]/ig, function(m) {
     return '<a href="' + m + '">' + m + '</a>';
