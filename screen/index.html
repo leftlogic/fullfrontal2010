@@ -651,18 +651,27 @@ var twitterQueue = new Queue(3000, function (item) {
   $('#tweets p:below(' + window.innerHeight + ')').remove();
 }).empty(run);
  
-var winners = new WebSocket('ws://node.remysharp.com:8003');
-winners.onmessage = function (event) {
-  var winner = document.querySelector('#winner');
-  if (event.data == 'close') {
-    document.body.className = document.body.className.replace(/winner/g, '');
-    winner.innerHTML = '';
-  } else {
-    document.body.className += ' winner';
-    winner.innerHTML = event.data;
-  }
-};
+var winners = {};
+function listenForWinner() {
+  winners = new WebSocket('ws://node.remysharp.com:8003');
+  winners.onmessage = function (event) {
+    var winner = document.querySelector('#winner');
+    if (event.data == 'close') {
+      document.body.className = document.body.className.replace(/winner/g, '');
+      winner.innerHTML = '';
+    } else {
+      document.body.className += ' winner';
+      winner.innerHTML = event.data;
+    }
+  };
+  
+  // auto reconnect after 2seconds
+  winners.onclose = function () {
+    setTimeout(listenForWinner, 2000);
+  };
+}
 
+listenForWinner();
 
 twitterlib.ify.link = function (t) {
   return t.replace(/[a-z]+:\/\/[a-z0-9-_]+\.[a-z0-9-_:~\+#%&\?\/.=]+[^:\.,\)\s*$]/ig, function(m) {
