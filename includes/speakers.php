@@ -4,7 +4,7 @@
  
   <ul>
     <li class="box" id="alex">
-      <h3><span><em>Alex Russell</em></span> <a href="http://alex.dojotoolkit.org/" title="Wot?! No twitter?">blog</a></h3>
+      <h3><span><em>Alex Russell</em></span> <a href="http://twitter.com/slightlyoff">@slightlyoff</a></h3>
       <p>Alex Russell is a software engineer at Google. Prior to joining Google he contributed to the development of the Dojo Toolkit. He's fighting IE 6 so you don't have to.</p>
       <img src="images/speakers/alex_profile.jpg" width="137" height="140" alt="Alex Russell" title="Alex Russell" />
     </li>
