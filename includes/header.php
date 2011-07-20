@@ -18,6 +18,9 @@
 
 </head>
 <body class="<?=$file?> vevent<?=$crazyload ? ' crazyload' : ''?>">
+  <div id="latest"> 
+    <p>This is the JavaScript Conference page for 2010, for the latest and greatest JavaScript conference, check out <a href="http://full-frontal.org">http://full-frontal.org</a></p> 
+  </div> 
   <header id="header">
   
     <div class="inner">
