@@ -1628,3 +1628,7 @@ a h2 {
   border-bottom: 1px solid #2A3E41;
   text-shadow: 0 1px 0px #BED2D5;
 }
+
+#latest p {
+  margin: 0;
+}
