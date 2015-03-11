@@ -4,7 +4,8 @@
   <meta charset=utf-8 />
   <title><?=$title?>Full Frontal - JavaScript Conference - 12th November 2010</title>
   <meta id="meta" name="viewport" content="width=device-width; initial-scale=1.0" />
-  <link rel="apple-touch-icon" href="/images/ff2010.png" />  
+  <link rel="apple-touch-icon" href="/images/ff2010.png" />
+  <!-- heroku hosted -->
   <script>
   // enable elements for styling in IE
   /*@cc_on'abbr article aside audio canvas details figcaption figure footer header hgroup mark menu meter nav output progress section summary time video'.replace(/\w+/g,function(n){document.createElement(n)})@*/
@@ -18,11 +19,11 @@
 
 </head>
 <body class="<?=$file?> vevent<?=$crazyload ? ' crazyload' : ''?>">
-  <div id="latest"> 
-    <p>This is the JavaScript Conference page for 2010, for the latest and greatest JavaScript conference, check out <a href="http://full-frontal.org">http://full-frontal.org</a></p> 
-  </div> 
+  <div id="latest">
+    <p>This is the JavaScript Conference page for 2010, for the latest and greatest JavaScript conference, check out <a href="http://full-frontal.org">http://full-frontal.org</a></p>
+  </div>
   <header id="header">
-  
+
     <div class="inner">
       <a class="home" href="/">
         <h1>Full Frontal</h1>
@@ -30,14 +31,14 @@
       </a>
       <div id="tickets" class="soldout">
         <a href="/tickets">
-          <h3>Tickets sold out!</h3> 
+          <h3>Tickets sold out!</h3>
         </a>
       </div>
     </div>
   </header>
 
   <nav id="nav">
-  
+
     <ul>
       <li><a href="/">Home</a></li>
       <li><a href="/schedule">Schedule</a></li>
@@ -47,7 +48,7 @@
       <li><a href="/sponsors">Sponsors</a></li>
       <li class="dateTime"><span>12th November 2010, Brighton UK</span></li>
     </ul>
-  
+
   </nav>
 
   <div id="holder">
