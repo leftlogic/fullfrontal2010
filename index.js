@@ -6,6 +6,13 @@ const tweets = require(__dirname + '/fullfrontalconf.json').filter(_ => {
   return _.created_at.indexOf('2009') !== -1;
 });
 
+app.disable('x-powered-by');
+
+app.use((req, res, next) => {
+  res.setHeader('x-powered-by', 'ffconf');
+  next();
+});
+
 hbs.registerPartials(__dirname + '/views/partials');
 
 hbs.registerHelper('linkify', string => {
