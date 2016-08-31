@@ -69,35 +69,13 @@
 <section id="whatTheySaid">
   <h2><span>What they said</span></h2>
   <ul id="tweets">
-<?php
-function linkify($text) {
-  // note - this order is important, i.e. links at the top, then anything else
-  $matches = array(
-    '/([A-Za-z]+:\/\/[A-Za-z0-9-_]+\.[A-Za-z0-9-_:%&\?\/.=]+)/',
-    '/(^|[^\w])(#[\d\w\-]+)/',
-    '/(^|[^\w])(@([\d\w\-]+))/'
-  );
-  
-  $replacements = array(
-    '<a href="$1">$1</a>',
-    '$1<a href="http://search.twitter.com/search?q=$2">$2</a>',
-    '$1@<a href="http://twitter.com/$3">$3</a>'
-  );
-  
-  return preg_replace($matches, $replacements, $text);
-}
-
-
-$favs = json_decode(file_get_contents('./fullfrontalconf.json'));
-shuffle($favs);
-for ($i = 0; $i < 3; $i++) : $fav = $favs[$i]; ?>
-
+{{#each tweet}}
 <li class="box">
-  <a href="http://twitter.com/<?=$fav->user->screen_name?>/statuses/<?=$fav->id?>"><img src="<?=$fav->user->profile_image_url?>" width="48" height="48" alt="<?=$fav->user->screen_name?>" title="<?=$fav->user->screen_name?>" /></a>
-  <quote><cite><a href="http://twitter.com/<?=$fav->user->screen_name?>"><?=$fav->user->screen_name?></a></cite> <?=linkify(htmlentities($fav->text))?></quote>
+  <a href="http://twitter.com/{{user.screen_name}}/statuses/{{id}}"><img src="{{user.profile_image_url}}" width="48" height="48" alt="{{user.screen_name}}" title="{{user.screen_name}}" /></a>
+  <quote><cite><a href="http://twitter.com/{{user.screen_name}}">{{user.screen_name}}</a></cite> {{{linkify text}}}</quote>
   <div></div>
 </li>
-<?php endfor ?>
+{{/each}}
   </ul>
 </section>
 
